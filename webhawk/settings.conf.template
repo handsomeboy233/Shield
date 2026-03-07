@@ -1,0 +1,36 @@
+[FEATURES]
+features:length,params_number,return_code,size,upper_cases,lower_cases,special_chars,url_depth,user_agent,http_query,ip
+
+[LOG]
+apache_regex:([(\d\.)]+) - - \[(.*?)\] "(.*?)" (\d+) (.+) "(.*?)" "(.*?)"
+apache_names:["ip","date","query","code","size","referrer","user_agent"]
+
+nginx_regex:([(\d\.)]+) - - \[(.*?)\] "(.*?)" (\d+) (\d+) (.+) "(.*?)" "(.*?)"
+nginx_names:["ip","date","query","code","size","referrer","user_agent"]
+
+http_regex:^(\d*?\.\d*?)\t.*?\t(.*?)\t.*?\t.*?\t.*?\t.*?\t(.*?\t.*?\t.*?\t.*?)\t(.*?)\t.*?\t(.*?)\t(.*?)\t.*$
+http_names:["date","ip","query","user_agent","size","code"]
+
+apache_error:
+nginx_error:
+
+[PROCESS_DETAILS]
+attributes:['status', 'num_ctx_switches', 'memory_full_info', 'connections', 'cmdline', 'create_time', 'num_fds', 'cpu_percent', 'terminal', 'ppid', 'cwd', 'nice', 'username', 'cpu_times', 'memory_info', 'threads', 'open_files', 'name', 'num_threads', 'exe', 'uids', 'gids', 'memory_percent', 'environ']
+
+[CVE]
+source:https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch=
+year_threshold:YYYY
+
+[LLM]
+# Use the following URL if using docker compose services
+url:http://ollama:11434
+# Use the following URL if NOT using docker compose services
+#url:http://127.0.0.1:11434
+model:intigration/analyzer:latest
+prompt:You are a cybersecurity expert. Does this log line contain indicators of a potential attack attempt? Your answer has to be in the following STRICT JSON format: '{"potential_attack_attempt":<true or false>,"details":"<a paragraph of less than 200 words>","CVE":<list of associated CVE IDs in the format CVE-<year>-<number> if any>,"owasp":<list of associated OWASP IDs in the format A<number>:<year>-<name> if any>, "recommendation":"<what to recommend to do>"}'. Do not use double quotes within the values. Do not use use backslashes within the values. Make sure that the output json has a correct formatting and that all the special characters are correctly escaped.
+
+[WEBAPP]
+# Use the following url if using docker compose services
+url:http://webhawk_ui:8080/api/v1/incidents
+# Use the following URL if NOT using docker compose services
+#url:http://127.0.0.1:8080/api/v1/incidents

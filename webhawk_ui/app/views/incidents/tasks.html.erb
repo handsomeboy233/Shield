@@ -1,0 +1,82 @@
+
+
+
+
+
+<div class="ui grid">
+  <div class="four wide column"><h3><%= @incidents.count %> open tasks</h3></div>
+  <div class="four wide column"></div>
+  <div class="four wide column"></div>
+  <div class="four wide column" style="text-align:right">
+  
+    <div class="ui search">
+      <div class="ui icon input">
+      <%= form_with url: :find_incidents, method: :get, html: { id: 'find_incidents_form', class:'ui form'} do %>
+     
+
+        <input class="prompt" type="text" placeholder="Find incidents..." value="<%= params[:search]%>" name="search" onchange="document.getElementById('find_incidents_form').submit();" style="width:300px;">
+         <% end %>
+
+        <i class="search icon"></i>
+        </div>
+      
+      <div class="results"></div>
+    </div>
+  
+  </div>
+</div>
+
+
+<% if @incidents.count==0%>
+<center><i>No incidents found</i></center>
+<%else%>
+
+
+<table class="ui celled table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Date</th>
+       <th>Owner</th>
+      <th>Status</th>
+      <th>Verdict</th>
+      <th>Vector</th>
+      <th>Related CVE(s)</th>
+      <th>Severity</th>
+      <!--<th>Log line #</th>-->
+      <th>Artifact(s)</th>
+      <th>AI Insights</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @incidents.reverse.each do |incident| %>
+    <tr>
+      <td data-label="Name"><%= link_to 'INC'+incident.id.to_s, incident %></td>
+      <td data-label="Name"><%= incident.created_at.to_s.sub('UTC','') %></td>
+
+      <td data-label="Name"><%= incident.status %></td>
+      <td data-label="Name">
+      <%= 
+        if incident.user_id==nil
+          'N/A'
+        else
+        User.find(incident.user_id).email.split('@')[0].split('.')[0].capitalize
+        end 
+      %>
+      </td>
+      <td data-label="Name"><%= incident.verdict %></td>
+
+      <td data-label="Age"><%= incident.attack_vector %></td>
+      <td data-label="Age"><%= raw(incident.cves) %></td>
+      <td data-label="Age"><%= incident.severity.capitalize %></td>
+      <!--<td data-label="Age"><%= incident.log_line %></td>-->
+      <td data-label="Age" style="word-break: break-word; white-space: normal;"><%=  truncate(incident.log_line_content, length: 100)%></td>
+      <td data-label="Age"><%= truncate(incident.llm_insights, length: 100) %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+<% end %>
+
+<p style="color: green"><%= notice %></p>
+

@@ -1,0 +1,65 @@
+/*
+ * This is a manifest file that'll be compiled into application.css.
+ *
+ * With Propshaft, assets are served efficiently without preprocessing steps. You can still include
+ * application-wide styles in this file, but keep in mind that CSS precedence will follow the standard
+ * cascading order, meaning styles declared later in the document or manifest will override earlier ones,
+ * depending on specificity.
+ *
+ * Consider organizing styles into separate files for maintainability.
+ */
+
+
+html body {
+  padding-top: 20px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.yield {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.devise{
+  width: 50%;
+  max-width: 400px;
+  margin: 100px auto 100px auto;
+  border-radius: 10px;
+background-color: #f9f9f9;
+  padding: 30px;
+border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.snippet {
+  font-family: "Courier New", Consolas, monospace;
+  font-size: 12px;
+  background-color: #f5f5f5; /* slightly softer than whitesmoke */
+  color: #222;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  white-space: pre-wrap;  /* preserves log formatting and wraps long lines */
+  word-wrap: break-word;
+  overflow-x: auto;       /* allows horizontal scroll if needed */
+  line-height: 1.5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  margin: 8px 0;
+}
+
+.turncate{
+  word-break: break-word;
+  white-space: normal;
+}
+
+.footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}

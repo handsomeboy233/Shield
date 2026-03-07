@@ -1,0 +1,32 @@
+services:
+  webhawk:
+    build:
+      context: ./webhawk
+    command: uvicorn app:app --host 0.0.0.0 --port 8000 --log-level debug
+    environment:
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./webhawk:/app
+    depends_on:
+      - ollama
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./ollama_starter.sh:/ollama_starter.sh
+      - ollama_data:/root/.ollama
+    entrypoint: ["/bin/sh", "/ollama_starter.sh"]
+  webhawk_ui:
+    build:
+      context: ./webhawk_ui
+    working_dir: /app
+    command: bash -c "bin/bundle install && bin/rails db:migrate && rm -f tmp/pids/server.pid && bin/bundle exec rails s -p 8080 -b '0.0.0.0'"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./webhawk_ui:/app
+volumes:
+  ollama_data:

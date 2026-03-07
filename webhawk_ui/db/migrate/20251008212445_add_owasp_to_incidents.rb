@@ -1,0 +1,5 @@
+class AddOwaspToIncidents < ActiveRecord::Migration[8.0]
+  def change
+    add_column :incidents, :owasp, :text
+  end
+end

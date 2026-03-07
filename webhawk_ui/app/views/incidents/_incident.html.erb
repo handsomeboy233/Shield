@@ -1,0 +1,84 @@
+<div id="<%= dom_id incident %>">
+  <!-- Assign to me form -->
+  <%= form_with url: :assign_incident, method: :post, html: { id: 'assign_to_me_form' } do %>
+    <%= hidden_field_tag :incident_id, incident.id %>
+  <% end %>
+  <h1 class="ui grey header">
+    <%= 'INC'+incident.id.to_s %>
+    <div class="sub header"><%= incident.created_at.to_s.sub('UTC','')%></div>
+  </h1>
+  <div class="ui grid">
+    <div class="nine wide column">
+      <table>
+        <tr>
+          <td>Owner</td>
+          <td>
+            <% if incident.user_id!=nil %>
+              <%= User.find(incident.user_id).email %>
+            <% else %>
+              <button class="ui mini blue button" onclick="if (confirm('You will be the responsible of this incident')) {document.getElementById('assign_to_me_form').submit();}">Assign to me </button> <br><i>This incident has not yet been assigned</i>
+            <% end %>
+          </td>
+        </tr>
+        <tr>
+          <td>Status</td>
+          <td><%= incident.status%></td>
+        </tr>
+        <tr>
+          <td>vector</td>
+          <td><%= incident.attack_vector%></td>
+        </tr>
+        <tr>
+          <td>Severity</td>
+          <td>
+            <% if incident.severity == 'high' %>
+                  <div class="ui red horizontal label"><%= incident.severity.capitalize %></div>
+            <% end %>
+            <% if incident.severity == 'medium' %>
+              <div class="ui orange horizontal label"><%= incident.severity.capitalize %></div>
+            <% end %>
+            <% if incident.severity == 'low' %>
+              <div class="ui grey horizontal label"><%= incident.severity.capitalize %></div>
+            <% end %>
+          </td>
+        </tr>
+        <tr>
+          <td>Artifact</td>
+          <td class="turncate"><div class="snippet"><code><%= incident.log_line_content%></code></td>
+        </tr>
+        <tr>
+          <td>Associated CVE</td>
+          <td><%= raw(incident.cves) %></td>
+        </tr>
+        <tr>
+          <td>Associated OWASP</td>
+          <td><%= raw(incident.owasp) %></td>
+        </tr>
+      </table>
+    </div>
+    <div class=" seven wide column">
+      <h2 class="ui header">
+        AI Insights
+        <div class="sub header">AI Analysis and recommendations</div>
+      </h2>
+      <div class="ui grid">
+        <div class=" eight wide column">
+          <h3 class="ui header">
+            <div><i class="lightbulb icon"></i>Analysis</div>
+          </h3>
+          <p>
+            <%= incident.llm_insights%>
+          </p>
+        </div>
+        <div class=" eight wide column">
+          <h3 class="ui header">
+            <div><i class="compass icon"></i>Recommendations</div>
+          </h3>
+          <p>
+            <%= incident.recommendation%>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

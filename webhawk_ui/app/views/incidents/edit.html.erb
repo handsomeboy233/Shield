@@ -1,0 +1,35 @@
+<% content_for :title, "Editing incident" %>
+
+<h1>INC<%= @incident.id %></h1>
+
+
+<div class="ui grid">
+  <div class=" two wide column">
+    Date: <%= @incident.created_at.to_s.sub('UTC','') %>
+    <br>
+    Owner: <%= User.find(@incident.user_id).email.split('@')[0] %>
+    <br>
+    <% if @incident.severity == 'high' %>
+    Severity: <div class="ui red horizontal label"><%= @incident.severity.capitalize %></div>
+    <% end %>
+     <% if @incident.severity == 'medium' %>
+    Severity: <div class="ui orange horizontal label"><%= @incident.severity.capitalize %></div>
+    <% end %>
+     <% if @incident.severity == 'low' %>
+    Severity: <div class="ui grey horizontal label"><%= @incident.severity.capitalize %></div>
+    <% end %>
+  </div>
+  <div class=" eight wide column"><%= render "form", incident: @incident %></div>
+  <div class=" six wide column"></div>
+</div>
+
+
+
+<br>
+
+<!--
+<div>
+  <%= link_to "Show this incident", @incident %> |
+  <%= link_to "Back to incidents", incidents_path %>
+</div>
+-->

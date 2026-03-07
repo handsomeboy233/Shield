@@ -1,0 +1,94 @@
+
+<div class="ui grid">
+  <div class="four wide column"><h3>Incidents</h3></div>
+  <div class="four wide column"></div>
+  <div class="four wide column"></div>
+  <div class="four wide column" style="text-align:right;" >
+  
+    <div class="ui search">
+      <div class="ui icon input">
+      <%= form_with url: :find_incidents, method: :get, html: { id: 'find_incidents_form', class:'ui form'} do %>
+     
+
+        <input class="prompt" type="text" placeholder="Find incidents..." value="<%= params[:search]%>" name="search" onchange="document.getElementById('find_incidents_form').submit();" style="width:300px;">
+         <% end %>
+
+        <i class="search icon"></i>
+        </div>
+      
+      <div class="results"></div>
+    </div>
+  
+  </div>
+</div>
+
+
+<% if @incidents.count==0%>
+<center><i>No incidents found</i></center>
+<%else%>
+
+
+<table class="ui compact table" width='100%'>
+  <thead>
+    <tr>
+      <th style='width:5%'>ID</th>
+      <th style='width:10%'>Date</th>
+      <th style='width:10%'>Host</th>
+      <th style='width:5%'>Owner</th>
+      <th style='width:5%'> Status</th>
+      <th style='width:5%'>Verdict</th>
+      <th style='width:5%'>Vector</th>
+      <th style='width:5%'>Severity</th>
+      <th style='width:25%'>Artifact(s)</th>
+      <th style='width:25%'>AI Insights</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% @incidents.each do |incident| %>
+    <tr>
+      <td data-label="Name"><%= link_to 'INC'+incident.id.to_s, incident %></td>
+      <td data-label="Name"><%= incident.created_at.to_s.sub('UTC','') %></td>
+      <td data-label="Name"><%= incident.host %></td>
+      <td data-label="Name">
+      <%= 
+        if incident.user_id==nil
+          'Unassigned'
+        else
+        User.find(incident.user_id).email.split('@')[0].split('.')[0].capitalize
+        end 
+      %>
+      </td>
+      <td data-label="Name"><%= incident.status %></td>
+      <td data-label="Name"><%= incident.verdict %></td>
+
+      <td><%= incident.attack_vector %></td>
+      
+      <td >
+      <% if incident.severity == 'high' %>
+      <div class="ui small red horizontal label" style="width:60px"><%= incident.severity.capitalize %></div>
+       <% end %>
+       <% if incident.severity == 'medium' %>
+      <div class="ui small orange horizontal label" style="width:60px"><%= incident.severity.capitalize %></div>
+       <% end %>
+       <% if incident.severity == 'low' %>
+      <div class="ui small grey horizontal label" style="width:60px"><%= incident.severity.capitalize %></div>
+       <% end %>
+        </td>
+
+
+      <td class="turncate"><%=  truncate(incident.log_line_content, length: 100)%></td>
+      <td class="turncate"><%= truncate(incident.llm_insights, length: 100) %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<% end %>
+
+<center>
+<%= paginate @incidents %>
+</center>
+
+
+<p style="color: green"><%= notice %></p>
+

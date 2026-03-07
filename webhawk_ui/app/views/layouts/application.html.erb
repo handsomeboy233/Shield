@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= content_for(:title) || "Webhawk Incident Management" %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= yield :head %>
+    <%# Enable PWA manifest for installable apps (make sure to enable in config/routes.rb too!) %>
+    <%#= tag.link rel: "manifest", href: pwa_manifest_path(format: :json) %>
+    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon.png">
+    <%# Includes all stylesheet files in app/assets/stylesheets %>
+    <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+    <%= stylesheet_link_tag "https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css", media: "all" %>
+    <%= javascript_include_tag "https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js" %>
+  </head>
+
+  <body>
+
+
+
+
+
+<% if user_signed_in? %>
+<div class="ui grid">
+  <div class="four wide column">
+  <h1 class="ui header">
+  <%= image_tag "hawk-icon.png", class:"ui massive image"%>
+  <div class="content">
+    Webhawk
+    <div class="sub header">All you need is logs.</div>
+  </div>
+</h1>
+  </div>
+  <div class="six wide column"></div>
+  <div class=" six wide column">
+
+  <div align="right">
+<br>
+  <a class="item">
+    <%= Incident.where(severity:'high').count %>
+    <div class="ui red horizontal label">High</div>
+  </a>
+  <a class="item">
+    <%= Incident.where(severity:'medium').count %>
+    <div class="ui orange horizontal label">Medium</div>
+  </a>
+  <a class="item">
+    <%= Incident.where(severity:'low').count %>
+    <div class="ui grey horizontal label">Low</div>
+  </a>
+</div>
+  </div>
+</div>
+
+
+
+    
+
+    <div class="ui inverted menu" style="background-color: rgb(46, 43, 53);">
+    <a class="item" href='/incidents'><i class=" bug icon"></i>Incidents</a>
+    <a class="item" href='/tasks'><i class=" tasks icon"></i>My Tasks</a>
+    <a class="item" href='/endpoints'><i class=" computer icon"></i>Endpoints</a>
+      <div class="right menu">
+        <% if user_signed_in? %>
+          <a class="item"><i class="user circle icon"></i><%= current_user.email %></a>
+          <%= link_to 'logout', destroy_user_session_path, method: :delete, class: 'item' %>
+        <%else %>
+          <%= link_to 'Sign up', new_user_registration_path, class: 'item' %>
+          <%= link_to 'Login', new_user_session_path, class: 'item' %>
+        <% end %>
+        <a class="item">About</a>
+      </div>
+    </div>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+<% end %>
+  <div class="yield">
+    <%= yield %>
+  </div>
+
+
+    <div class="footer">
+    <center><%= image_tag "HIT.jpg", class:"ui mini image"%>© QieYuesa
+    <br>
+    
+        <a href='https://github.com/handsomeboy233'><i class="github icon"></i>handsomeboy233</a>
+        
+
+        
+        </center>
+        </div>
+  </body>
+</html>

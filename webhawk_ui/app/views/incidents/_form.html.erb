@@ -1,0 +1,53 @@
+<%= form_with(model: incident, class:"ui form") do |form| %>
+  <% if incident.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(incident.errors.count, "error") %> prohibited this incident from being saved:</h2>
+
+      <ul>
+        <% incident.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :my_Notes, style: "display: block" %>
+    <%= form.text_area :description %>
+  </div>
+
+
+
+  <div>
+    <%= form.label :severity, style: "display: block" %>
+    <%= form.select(:severity, ["high", "medium","low"]) %>
+  </div>
+
+
+  <div>
+    <%= form.label :attack_vector, style: "display: block" %>
+    <%= form.select(:attack_vector, ["Web", "Email","Social Media"]) %>
+  </div>
+
+    <div>
+    <%= form.label :verdict, style: "display: block" %>
+
+    <%= form.select(:verdict, ["Confirmed", "False Positive"]) %>
+
+
+    </div>
+
+    <div>
+    <%= form.label :status, style: "display: block" %>
+    <%= form.select(:status, ["Open", "Closed"]) %>
+    </div>
+
+   
+  <div>
+          <br>
+    <button class="ui button" type="submit">Update Incident</button>
+  </div>
+<% end %>
+
+
+
