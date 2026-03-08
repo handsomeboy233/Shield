@@ -4,13 +4,7 @@ import csv
 import sqlite3
 from pathlib import Path
 
-from schemas import (
-    EventRecord,
-    RuleMatchResult,
-    AnomalyResult,
-    OSRResult,
-    FinalDetectionResult,
-)
+from schemas import AnomalyResult, EventRecord, FinalDetectionResult, OSRResult, RuleMatchResult
 
 
 class DetectionRepository:
@@ -41,15 +35,16 @@ class DetectionRepository:
     ) -> None:
         conn = sqlite3.connect(self.db_path)
         cur = conn.cursor()
-
         cur.execute(
             """
             INSERT INTO detections (
                 run_id, record_id, source_type, rule_hit, rule_name, rule_severity,
-                anomaly_score, is_anomaly, is_unknown, final_label, stage,
-                confidence, risk_score, raw_text, reason_rule, reason_anomaly, reason_osr
+                anomaly_score, anomaly_threshold, anomaly_model, anomaly_version,
+                is_anomaly, is_unknown, osr_method, osr_confidence,
+                final_label, stage, confidence, risk_score, raw_text,
+                reason_rule, reason_anomaly, reason_osr
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 run_id,
@@ -59,8 +54,13 @@ class DetectionRepository:
                 rule_result.rule_name,
                 rule_result.severity,
                 anomaly_result.score,
+                anomaly_result.threshold,
+                anomaly_result.model_name,
+                anomaly_result.model_version,
                 int(anomaly_result.is_anomaly),
                 int(osr_result.is_unknown),
+                osr_result.method,
+                osr_result.confidence,
                 final_result.final_label,
                 final_result.stage,
                 final_result.confidence,
@@ -71,32 +71,37 @@ class DetectionRepository:
                 osr_result.reason,
             ),
         )
-
         conn.commit()
         conn.close()
 
     def export_summary_csv(self, export_path: str, rows: list[dict]) -> None:
         export_file = Path(export_path)
         export_file.parent.mkdir(parents=True, exist_ok=True)
+        fieldnames = [
+            "run_id",
+            "record_id",
+            "source_type",
+            "rule_hit",
+            "rule_name",
+            "rule_severity",
+            "rule_reason",
+            "anomaly_score",
+            "anomaly_threshold",
+            "anomaly_model",
+            "anomaly_version",
+            "is_anomaly",
+            "anomaly_reason",
+            "is_unknown",
+            "osr_method",
+            "osr_reason",
+            "final_label",
+            "stage",
+            "confidence",
+            "risk_score",
+            "raw_text",
+        ]
 
         with export_file.open("w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(
-                f,
-                fieldnames=[
-                    "run_id",
-                    "record_id",
-                    "source_type",
-                    "rule_hit",
-                    "rule_name",
-                    "anomaly_score",
-                    "is_anomaly",
-                    "is_unknown",
-                    "final_label",
-                    "stage",
-                    "confidence",
-                    "risk_score",
-                    "raw_text",
-                ],
-            )
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(rows)

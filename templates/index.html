@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shield Incident Dashboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+  <style>
+    body { background: #f4f6f8; }
+    .page-wrap { padding: 24px 28px; }
+    .brand-header { margin-bottom: 18px; }
+    .brand-title { display: flex; align-items: center; gap: 14px; }
+    .brand-mark {
+      width: 52px; height: 52px; border-radius: 14px;
+      background: linear-gradient(135deg, #2185d0, #6435c9);
+      color: white; display: flex; align-items: center; justify-content: center;
+      font-size: 26px; font-weight: 700;
+      box-shadow: 0 12px 20px rgba(33,133,208,.22);
+    }
+    .muted { color: #6b7280; }
+    .summary-cards .card-value { font-size: 2rem; font-weight: 700; line-height: 1; }
+    .summary-cards .meta { margin-top: 6px; color: #6b7280; }
+    .tiny-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+    .main-grid { display: grid; grid-template-columns: minmax(760px, 1.75fr) minmax(320px, 0.95fr); gap: 18px; align-items: start; }
+    .results-table td, .results-table th { vertical-align: top !important; }
+    .click-row { cursor: pointer; }
+    .click-row:hover { background: #f9fafb !important; }
+    .raw-text { max-width: 360px; white-space: normal; word-break: break-all; }
+    .sidebar-stack { position: sticky; top: 20px; }
+    .module-pre { white-space: pre-wrap; word-break: break-word; background: #f9fafb; border-radius: 8px; padding: 10px; }
+    .tab-strip { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+    .source-box { margin-top: 12px; }
+    @media (max-width: 1180px) {
+      .main-grid { grid-template-columns: 1fr; }
+      .sidebar-stack { position: static; }
+      .raw-text { max-width: unset; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+    <div class="brand-header">
+      <div class="brand-title">
+        <div class="brand-mark">S</div>
+        <div>
+          <h1 class="ui header" style="margin-bottom: 4px;">Shield Detection Dashboard</h1>
+          <div class="muted">按原 WebHawk 页面风格改造成 Flask 版，统一展示签名模块、异常检测、开放集识别与自学习状态。</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ui six stackable cards summary-cards">
+      <div class="card"><div class="content"><div class="card-value">{{ summary.total_records }}</div><div class="meta">Total Records</div></div></div>
+      <div class="card"><div class="content"><div class="card-value">{{ summary.rule_hits }}</div><div class="meta">Rule Hits</div></div></div>
+      <div class="card"><div class="content"><div class="card-value">{{ summary.anomalies }}</div><div class="meta">Anomalies</div></div></div>
+      <div class="card"><div class="content"><div class="card-value">{{ summary.unknowns }}</div><div class="meta">Unknowns</div></div></div>
+      <div class="card"><div class="content"><div class="card-value">{{ summary.benign }}</div><div class="meta">Benign</div></div></div>
+      <div class="card"><div class="content"><div class="card-value tiny-mono">{{ summary.anomaly_backend }}</div><div class="meta">Anomaly Backend</div></div></div>
+    </div>
+
+    <div class="ui secondary pointing menu" style="margin-top: 14px;">
+      <a class="{% if tab == 'all' %}active {% endif %}item" href="/?tab=all&q={{ query|urlencode }}">全部</a>
+      <a class="{% if tab == 'rule' %}active {% endif %}item" href="/?tab=rule&q={{ query|urlencode }}">规则命中</a>
+      <a class="{% if tab == 'anomaly' %}active {% endif %}item" href="/?tab=anomaly&q={{ query|urlencode }}">异常</a>
+      <a class="{% if tab == 'unknown' %}active {% endif %}item" href="/?tab=unknown&q={{ query|urlencode }}">未知/拒识</a>
+      <a class="{% if tab == 'normal' %}active {% endif %}item" href="/?tab=normal&q={{ query|urlencode }}">正常</a>
+      <div class="right menu">
+        <div class="item" style="padding-right:0;">
+          <form method="get" class="ui action input">
+            <input type="hidden" name="tab" value="{{ tab }}">
+            <input type="text" name="q" value="{{ query }}" placeholder="搜索 record / rule / raw_text">
+            <button class="ui button primary" type="submit">搜索</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-grid">
+      <div>
+        <div class="ui segment">
+          <div class="ui top attached clearing basic segment" style="padding: 0 0 12px 0;">
+            <h3 class="ui left floated header">Incidents</h3>
+            <div class="ui right floated tiny grey label">Run ID: {{ summary.run_id }}</div>
+          </div>
+          <table class="ui celled striped selectable table results-table">
+            <thead>
+              <tr>
+                <th>record_id</th>
+                <th>stage</th>
+                <th>final_label</th>
+                <th>rule</th>
+                <th>anomaly</th>
+                <th>unknown</th>
+                <th>risk</th>
+                <th>raw_text</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for row in rows %}
+              <tr class="click-row {% if active_row and row.record_id == active_row.record_id %}active{% endif %}" onclick="window.location='/?tab={{ tab }}&q={{ query|urlencode }}&record_id={{ row.record_id|urlencode }}'">
+                <td><a href="/?tab={{ tab }}&q={{ query|urlencode }}&record_id={{ row.record_id|urlencode }}">{{ row.record_id }}</a></td>
+                <td>
+                  {% if row.stage == 'rule' %}
+                    <span class="ui tiny red basic label">rule</span>
+                  {% elif row.stage == 'anomaly' or row.stage == 'anomaly_osr' %}
+                    <span class="ui tiny orange basic label">anomaly</span>
+                  {% elif row.stage == 'unknown' or row.stage == 'osr' %}
+                    <span class="ui tiny violet basic label">unknown</span>
+                  {% else %}
+                    <span class="ui tiny green basic label">normal</span>
+                  {% endif %}
+                </td>
+                <td>{{ row.final_label or '-' }}</td>
+                <td>{{ row.rule_name or '-' }}</td>
+                <td>{{ '%.2f'|format(row.anomaly_score_num) }}</td>
+                <td>{{ 1 if row.is_unknown_bool else 0 }}</td>
+                <td>{{ '%.2f'|format(row.risk_score_num) }}</td>
+                <td class="raw-text tiny-mono">{{ row.raw_text }}</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          <div class="source-box tiny-mono muted">CSV: {{ csv_path }}<br>Summary JSON: {{ summary_json_path }}</div>
+        </div>
+      </div>
+
+      <div class="sidebar-stack">
+        {% if active_row %}
+        <div class="ui fluid card">
+          <div class="content">
+            <div class="header">签名模块 / Rule Engine</div>
+            <div class="description" style="margin-top: 12px;">
+              <div class="ui small list">
+                <div class="item"><strong>是否命中：</strong>{{ 1 if active_row.rule_hit_bool else 0 }}</div>
+                <div class="item"><strong>规则名：</strong>{{ active_row.rule_name or '-' }}</div>
+                <div class="item"><strong>规则级别：</strong>{{ active_row.final_label if active_row.rule_hit_bool else '-' }}</div>
+                <div class="item"><strong>规则原因：</strong></div>
+              </div>
+              <div class="module-pre tiny-mono">{{ active_row.rule_reason or 'no rule reason' }}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui fluid card">
+          <div class="content">
+            <div class="header">异常检测模块 / Anomaly Engine</div>
+            <div class="description" style="margin-top: 12px;">
+              <div class="ui small list">
+                <div class="item"><strong>模型：</strong>{{ summary.anomaly_model }} {% if summary.anomaly_version and summary.anomaly_version != 'N/A' %}({{ summary.anomaly_version }}){% endif %}</div>
+                <div class="item"><strong>异常分数：</strong>{{ '%.2f'|format(active_row.anomaly_score_num) }}</div>
+                <div class="item"><strong>阈值：</strong>{{ active_row.anomaly_threshold or '-' }}</div>
+                <div class="item"><strong>是否异常：</strong>{{ 1 if active_row.is_anomaly_bool else 0 }}</div>
+                <div class="item"><strong>判定原因：</strong></div>
+              </div>
+              <div class="module-pre tiny-mono">{{ active_row.anomaly_reason or 'no anomaly reason' }}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui fluid card">
+          <div class="content">
+            <div class="header">开放集识别模块 / OSR</div>
+            <div class="description" style="margin-top: 12px;">
+              <div class="ui small list">
+                <div class="item"><strong>方法：</strong>{{ active_row.osr_method or '-' }}</div>
+                <div class="item"><strong>是否未知：</strong>{{ 1 if active_row.is_unknown_bool else 0 }}</div>
+                <div class="item"><strong>判定原因：</strong></div>
+              </div>
+              <div class="module-pre tiny-mono">{{ active_row.osr_reason or 'no osr reason' }}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui fluid card">
+          <div class="content">
+            <div class="header">最终判定 / Aggregation</div>
+            <div class="description" style="margin-top: 12px;">
+              <div class="ui small list">
+                <div class="item"><strong>阶段：</strong>{{ active_row.stage or '-' }}</div>
+                <div class="item"><strong>标签：</strong>{{ active_row.final_label or '-' }}</div>
+                <div class="item"><strong>置信度：</strong>{{ active_row.confidence or '-' }}</div>
+                <div class="item"><strong>风险分：</strong>{{ '%.2f'|format(active_row.risk_score_num) }}</div>
+                <div class="item"><strong>原始内容：</strong></div>
+              </div>
+              <div class="module-pre tiny-mono">{{ active_row.raw_text }}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui fluid card">
+          <div class="content">
+            <div class="header">自学习机制 / Self-learning</div>
+            <div class="description" style="margin-top: 12px;">
+              <div class="ui small list">
+                <div class="item"><strong>启用状态：</strong>{{ '已启用' if summary.self_learning.get('enabled') else '未启用' }}</div>
+                <div class="item"><strong>模式：</strong>{{ summary.self_learning.get('mode', 'placeholder') }}</div>
+                <div class="item"><strong>反馈样本数：</strong>{{ summary.self_learning.get('feedback_samples', 0) }}</div>
+                <div class="item"><strong>规则版本：</strong>{{ summary.self_learning.get('rule_version', '-') }}</div>
+                <div class="item"><strong>模型版本：</strong>{{ summary.self_learning.get('model_version', '-') }}</div>
+                <div class="item"><strong>最近更新：</strong>{{ summary.self_learning.get('last_update', '-') }}</div>
+              </div>
+              <div class="module-pre tiny-mono">{{ summary.self_learning.get('note', 'feedback loop reserved for later stage') }}</div>
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <div class="ui placeholder segment">
+          <div class="ui icon header">
+            <i class="search icon"></i>
+            当前没有可展示的记录
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</body>
+</html>

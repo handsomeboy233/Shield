@@ -1,63 +1,61 @@
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 from modules.anomaly_adapter import AnomalyEngine
-from modules.rule_engine import RuleEngine
 from modules.osr_stub import OSREngine
-from storage.repository import DetectionRepository
+from modules.rule_engine import RuleEngine
+from modules.self_learning import SelfLearningEngine
 from schemas import FinalDetectionResult
+from storage.repository import DetectionRepository
 
 
 class DetectionPipeline:
     def __init__(self, db_path: str, export_path: str):
         self.db_path = db_path
         self.export_path = export_path
-
         self.rule_engine = RuleEngine()
         self.anomaly_engine = AnomalyEngine()
         self.osr_engine = OSREngine()
+        self.self_learning = SelfLearningEngine()
         self.repo = DetectionRepository(db_path=db_path)
 
     def run(self, input_path: str, input_type: str, run_id: str) -> dict:
         self.repo.start_run(run_id=run_id, input_type=input_type, input_path=input_path)
-
-        payload = self.anomaly_engine.detect_file(
-            input_path=input_path,
-            input_type=input_type,
-        )
+        payload = self.anomaly_engine.detect_file(input_path=input_path, input_type=input_type)
 
         if payload["summary"]["total"] == 0:
-            self.repo.export_summary_csv(
-                export_path=self.export_path,
-                rows=[],
-            )
-            return {
+            self.repo.export_summary_csv(export_path=self.export_path, rows=[])
+            summary = {
                 "total_records": 0,
                 "rule_hits": 0,
                 "anomalies": 0,
                 "unknowns": 0,
                 "benign": 0,
                 "warning": f"no valid records loaded from {input_path}",
+                "anomaly_backend": payload["summary"].get("backend", "none"),
+                "self_learning": self.self_learning.status(),
             }
+            self._write_summary_sidecar(summary)
+            return summary
 
         total_records = 0
         rule_hits = 0
         anomalies = 0
         unknowns = 0
         benign = 0
-
         export_rows: list[dict] = []
 
         for item in payload["records"]:
             event = item["event"]
             anomaly_result = item["anomaly"]
-
             rule_result = self.rule_engine.match(event)
             osr_result = self.osr_engine.recognize(
                 event=event,
                 anomaly_result=anomaly_result,
                 rule_result=rule_result,
             )
-
             final_result = self._aggregate(
                 event=event,
                 rule_result=rule_result,
@@ -80,9 +78,17 @@ class DetectionPipeline:
                 "source_type": event.source_type,
                 "rule_hit": int(rule_result.hit),
                 "rule_name": rule_result.rule_name or "",
+                "rule_severity": rule_result.severity or "",
+                "rule_reason": rule_result.reason,
                 "anomaly_score": anomaly_result.score,
+                "anomaly_threshold": anomaly_result.threshold,
+                "anomaly_model": anomaly_result.model_name,
+                "anomaly_version": anomaly_result.model_version,
                 "is_anomaly": int(anomaly_result.is_anomaly),
+                "anomaly_reason": anomaly_result.reason,
                 "is_unknown": int(osr_result.is_unknown),
+                "osr_method": osr_result.method,
+                "osr_reason": osr_result.reason,
                 "final_label": final_result.final_label,
                 "stage": final_result.stage,
                 "confidence": final_result.confidence,
@@ -100,18 +106,27 @@ class DetectionPipeline:
             if final_result.final_label == "benign":
                 benign += 1
 
-        self.repo.export_summary_csv(
-            export_path=self.export_path,
-            rows=export_rows,
-        )
+        self.repo.export_summary_csv(export_path=self.export_path, rows=export_rows)
 
-        return {
+        summary = {
             "total_records": total_records,
             "rule_hits": rule_hits,
             "anomalies": anomalies,
             "unknowns": unknowns,
             "benign": benign,
+            "anomaly_backend": payload["summary"].get("backend"),
+            "anomaly_model": payload["summary"].get("model_name"),
+            "anomaly_version": payload["summary"].get("model_version"),
+            "self_learning": self.self_learning.status(),
         }
+        self._write_summary_sidecar(summary)
+        return summary
+
+    def _write_summary_sidecar(self, summary: dict) -> None:
+        summary_path = Path(self.export_path).with_suffix(".summary.json")
+        summary_path.parent.mkdir(parents=True, exist_ok=True)
+        with summary_path.open("w", encoding="utf-8") as f:
+            json.dump(summary, f, ensure_ascii=False, indent=2)
 
     def _aggregate(self, event, rule_result, anomaly_result, osr_result) -> FinalDetectionResult:
         if rule_result.hit:

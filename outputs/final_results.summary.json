@@ -1,0 +1,19 @@
+{
+  "total_records": 9,
+  "rule_hits": 6,
+  "anomalies": 5,
+  "unknowns": 0,
+  "benign": 3,
+  "anomaly_backend": "webhawk_core",
+  "anomaly_model": "webhawk_pca_dbscan",
+  "anomaly_version": "midterm-0.3",
+  "self_learning": {
+    "enabled": false,
+    "mode": "placeholder",
+    "feedback_samples": 0,
+    "rule_version": "rules-v1",
+    "model_version": "model-v1",
+    "last_update": "N/A",
+    "note": "feedback loop reserved for later stage; current run uses fixed rules and models"
+  }
+}

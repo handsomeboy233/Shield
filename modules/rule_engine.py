@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from schemas import EventRecord, RuleMatchResult
 
 
@@ -23,13 +25,16 @@ class RuleEngine:
             "/bin/sh",
             "powershell",
         ]
-        self.suspicious_process_keywords = [
-            "nmap",
-            "nc",
-            "netcat",
-            "hydra",
-            "sqlmap",
-            "masscan",
+        self.process_patterns = [
+            re.compile(r"(^|\s)nmap(\s|$)"),
+            re.compile(r"(^|\s)netcat(\s|$)"),
+            re.compile(r"(^|\s)hydra(\s|$)"),
+            re.compile(r"(^|\s)sqlmap(\s|$)"),
+            re.compile(r"(^|\s)masscan(\s|$)"),
+            re.compile(r"(^|\s)nc(\s|$)"),
+            re.compile(r"bash\s+-i"),
+            re.compile(r"python\s+-c"),
+            re.compile(r"perl\s+-e"),
         ]
 
     def match(self, event: EventRecord) -> RuleMatchResult:
@@ -37,7 +42,6 @@ class RuleEngine:
             return self._match_apache(event)
         if event.source_type == "os_processes":
             return self._match_process(event)
-
         return RuleMatchResult(
             hit=False,
             rule_name=None,
@@ -68,12 +72,12 @@ class RuleEngine:
                     reason=f"query/raw matched keyword: {kw}",
                 )
 
-        if event.status_code in (401, 403) and path_lower:
+        if event.status_code in (401, 403) and any(token in path_lower for token in ["/admin", "/manager", "/login"]):
             return RuleMatchResult(
                 hit=True,
                 rule_name="access_denied_probe",
                 severity="medium",
-                reason=f"http status {event.status_code}",
+                reason=f"http status {event.status_code} on sensitive path",
             )
 
         return RuleMatchResult(
@@ -89,38 +93,38 @@ class RuleEngine:
         mem = float(event.features.get("mem", 0.0) or 0.0)
         virt = float(event.features.get("virt", 0.0) or 0.0)
 
-        for kw in self.suspicious_process_keywords:
-            if kw in raw_lower:
+        for pattern in self.process_patterns:
+            if pattern.search(raw_lower):
                 return RuleMatchResult(
                     hit=True,
                     rule_name="suspicious_process_name",
                     severity="high",
-                    reason=f"process matched keyword: {kw}",
+                    reason=f"process matched suspicious pattern: {pattern.pattern}",
                 )
 
-        if cpu >= 60:
+        if cpu >= 80:
             return RuleMatchResult(
-               hit=True,
-               rule_name="high_cpu_usage",
-               severity="medium",
-               reason=f"cpu={cpu}",
-           )
+                hit=True,
+                rule_name="high_cpu_usage",
+                severity="medium",
+                reason=f"cpu={cpu}",
+            )
 
-        if mem >= 2:
+        if mem >= 5:
             return RuleMatchResult(
-               hit=True,
-               rule_name="high_mem_usage",
-               severity="medium",
-               reason=f"mem={mem}",
-           )
+                hit=True,
+                rule_name="high_mem_usage",
+                severity="medium",
+                reason=f"mem={mem}",
+            )
 
-        if virt >= 1_000_000:
+        if virt >= 10_000_000:
             return RuleMatchResult(
-               hit=True,
-               rule_name="high_virtual_memory",
-               severity="medium",
-               reason=f"virt={virt}",
-           )
+                hit=True,
+                rule_name="high_virtual_memory",
+                severity="medium",
+                reason=f"virt={virt}",
+            )
 
         return RuleMatchResult(
             hit=False,
