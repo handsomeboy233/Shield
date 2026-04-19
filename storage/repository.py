@@ -77,31 +77,28 @@ class DetectionRepository:
     def export_summary_csv(self, export_path: str, rows: list[dict]) -> None:
         export_file = Path(export_path)
         export_file.parent.mkdir(parents=True, exist_ok=True)
-        fieldnames = [
-            "run_id",
-            "record_id",
-            "source_type",
-            "rule_hit",
-            "rule_name",
-            "rule_severity",
-            "rule_reason",
-            "anomaly_score",
-            "anomaly_threshold",
-            "anomaly_model",
-            "anomaly_version",
-            "is_anomaly",
-            "anomaly_reason",
-            "is_unknown",
-            "osr_method",
-            "osr_reason",
-            "final_label",
-            "stage",
-            "confidence",
-            "risk_score",
-            "raw_text",
-        ]
-
+     
+        # 没有数据时也写一个空文件
+        if not rows:
+            with export_file.open("w", newline="", encoding="utf-8") as f:
+                f.write("")
+            return
+     
+        # 动态汇总所有字段，避免 pipeline 新增列后这里不同步
+        fieldnames = []
+        seen = set()
+        for row in rows:
+            for key in row.keys():
+                if key not in seen:
+                    seen.add(key)
+                    fieldnames.append(key)
+     
         with export_file.open("w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer = csv.DictWriter(
+                f,
+                fieldnames=fieldnames,
+                extrasaction="ignore",   # 即使将来还有额外字段，也不报错
+            )
             writer.writeheader()
-            writer.writerows(rows)
+            for row in rows:
+                writer.writerow(row)

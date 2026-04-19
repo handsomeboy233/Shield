@@ -1,0 +1,428 @@
+text,pred_label,max_prob,dist_to_pred_centroid,class_distance_threshold,is_unknown,final_label,reject_reason
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.7740051746368408,7.822351932525635,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.7828854918479919,7.693129062652588,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.7814079523086548,7.605926036834717,8.718049049377441,1,unknown,low_confidence
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.8359686732292175,7.166627883911133,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15""",benign,0.7784990072250366,7.742004871368408,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0,gzip(gfe)""",benign,0.6237351894378662,9.389409065246582,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0""",benign,0.7384100556373596,8.418608665466309,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1""",benign,0.826544463634491,7.210472106933594,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign,0.7863195538520813,7.789513111114502,8.718049049377441,1,unknown,low_confidence
+"GET /domaindata/domainmovement.zip HTTP/1.1 STATUS=200 BYTES=7437792 UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47""",benign,0.5584230422973633,9.63766860961914,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"GET /domaindata/domainmovement.zip HTTP/1.1 STATUS=200 BYTES=7437792 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign,0.5350852608680725,9.952458381652832,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_8 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.76 Mobile/15E148 Safari/604.1""",benign,0.7697135210037231,7.772592067718506,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.742721676826477,8.026400566101074,8.718049049377441,1,unknown,low_confidence
+"GET /plus/mytag_js.php?dopost=saveedit&arrs1[]=99&arrs1[]=102&arrs1[]=103&arrs1[]=95&arrs1[]=100&arrs1[]=98&arrs1[]=112&arrs1[]=114&arrs1[]=101&arrs1[]=102&arrs1[]=105&arrs1[]=120&arrs2[]=109&arrs2[]=121&arrs2[]=116&arrs2[]=97&arrs2[]=103&arrs2[]=96&arrs2[]=32&arrs2[]=40&arrs2[]=97&arrs2[]=105&arrs2[]=100&arrs2[]=44&arrs2[]=110&arrs2[]=111&arrs2[]=114&arrs2[]=109&arrs2[]=98&arrs2[]=111&arrs2[]=100&arrs2[]=121&arrs2[]=41&arrs2[]=32&arrs2[]=86&arrs2[]=65&arrs2[]=76&arrs2[]=85&arrs2[]=69&arrs2[]=83&arrs2[]=40&arrs2[]=57&arrs2[]=48&arrs2[]=57&arrs2[]=48&arrs2[]=44&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=101&arrs2[]=99&arrs2[]=104&arrs2[]=111&arrs2[]=32&arrs2[]=39&arrs2[]=39&arrs2[]=100&arrs2[]=101&arrs2[]=100&arrs2[]=101&arrs2[]=99&arrs2[]=109&arrs2[]=115&arrs2[]=32&arrs2[]=53&arrs2[]=46&arrs2[]=55&arrs2[]=32&arrs2[]=48&arrs2[]=100&arrs2[]=97&arrs2[]=121&arrs2[]=60&arrs2[]=98&arrs2[]=114&arrs2[]=62&arrs2[]=103&arrs2[]=117&arrs2[]=105&arrs2[]=103&arrs2[]=101&arrs2[]=44&arrs2[]=32&arrs2[]=57&arrs2[]=48&arrs2[]=115&arrs2[]=101&arrs2[]=99&arrs2[]=46&arrs2[]=111&arrs2[]=114&arrs2[]=103&arrs2[]=39&arrs2[]=39&arrs2[]=59&arrs2[]=64&arrs2[]=112&arrs2[]=114&arrs2[]=101&arrs2[]=103&arrs2[]=95&arrs2[]=114&arrs2[]=101&arrs2[]=112&arrs2[]=108&arrs2[]=97&arrs2[]=99&arrs2[]=101&arrs2[]=40&arrs2[]=39&arrs2[]=39&arrs2[]=47&arrs2[]=91&arrs2[]=99&arrs2[]=111&arrs2[]=112&arrs2[]=121&arrs2[]=114&arrs2[]=105&arrs2[]=103&arrs2[]=104&arrs2[]=116&arrs2[]=93&arrs2[]=47&arrs2[]=101&arrs2[]=39&arrs2[]=39&arrs2[]=44&arrs2[]=36&arrs2[]=95&arrs2[]=82&arrs2[]=69&arrs2[]=81&arrs2[]=85&arrs2[]=69&arrs2[]=83&arrs2[]=84&arrs2[]=91&arrs2[]=39&arrs2[]=39&arrs2[]=103&arrs2[]=117&arrs2[]=105&arrs2[]=103&arrs2[]=101&arrs2[]=39&arrs2[]=39&arrs2[]=93&arrs2[]=44&arrs2[]=39&arrs2[]=39&arrs2[]=101&arrs2[]=114&arrs2[]=114&arrs2[]=111&arrs2[]=114&arrs2[]=39&arrs2[]=39&arrs2[]=41&arrs2[]=59&arrs2[]=63&arrs2[]=62&arrs2[]=39&arrs2[]=41&arrs2[]=59&arrs2[]=0 HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/plus/mytag_js.php?dopost=saveedit&arrs1[]=99&arrs1[]=102&arrs1[]=103&arrs1[]=95&arrs1[]=100&arrs1[]=98&arrs1[]=112&arrs1[]=114&arrs1[]=101&arrs1[]=102&arrs1[]=105&arrs1[]=120&arrs2[]=109&arrs2[]=121&arrs2[]=116&arrs2[]=97&arrs2[]=103&arrs2[]=96&arrs2[]=32&arrs2[]=40&arrs2[]=97&arrs2[]=105&arrs2[]=100&arrs2[]=44&arrs2[]=110&arrs2[]=111&arrs2[]=114&arrs2[]=109&arrs2[]=98&arrs2[]=111&arrs2[]=100&arrs2[]=121&arrs2[]=41&arrs2[]=32&arrs2[]=86&arrs2[]=65&arrs2[]=76&arrs2[]=85&arrs2[]=69&arrs2[]=83&arrs2[]=40&arrs2[]=57&arrs2[]=48&arrs2[]=57&arrs2[]=48&arrs2[]=44&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=101&arrs2[]=99&arrs2[]=104&arrs2[]=111&arrs2[]=32&arrs2[]=39&arrs2[]=39&arrs2[]=100&arrs2[]=101&arrs2[]=100&arrs2[]=101&arrs2[]=99&arrs2[]=109&arrs2[]=115&arrs2[]=32&arrs2[]=53&arrs2[]=46&arrs2[]=55&arrs2[]=32&arrs2[]=48&arrs2[]=100&arrs2[]=97&arrs2[]=121&arrs2[]=60&arrs2[]=98&arrs2[]=114&arrs2[]=62&arrs2[]=103&arrs2[]=117&arrs2[]=105&arrs2[]=103&arrs2[]=101&arrs2[]=44&arrs2[]=32&arrs2[]=57&arrs2[]=48&arrs2[]=115&arrs2[]=101&arrs2[]=99&arrs2[]=46&arrs2[]=111&arrs2[]=114&arrs2[]=103&arrs2[]=39&arrs2[]=39&arrs2[]=59&arrs2[]=64&arrs2[]=112&arrs2[]=114&arrs2[]=101&arrs2[]=103&arrs2[]=95&arrs2[]=114&arrs2[]=101&arrs2[]=112&arrs2[]=108&arrs2[]=97&arrs2[]=99&arrs2[]=101&arrs2[]=40&arrs2[]=39&arrs2[]=39&arrs2[]=47&arrs2[]=91&arrs2[]=99&arrs2[]=111&arrs2[]=112&arrs2[]=121&arrs2[]=114&arrs2[]=105&arrs2[]=103&arrs2[]=104&arrs2[]=116&arrs2[]=93&arrs2[]=47&arrs2[]=101&arrs2[]=39&arrs2[]=39&arrs2[]=44&arrs2[]=36&arrs2[]=95&arrs2[]=82&arrs2[]=69&arrs2[]=81&arrs2[]=85&arrs2[]=69&arrs2[]=83&arrs2[]=84&arrs2[]=91&arrs2[]=39&arrs2[]=39&arrs2[]=103&arrs2[]=117&arrs2[]=105&arrs2[]=103&arrs2[]=101&arrs2[]=39&arrs2[]=39&arrs2[]=93&arrs2[]=44&arrs2[]=39&arrs2[]=39&arrs2[]=101&arrs2[]=114&arrs2[]=114&arrs2[]=111&arrs2[]=114&arrs2[]=39&arrs2[]=39&arrs2[]=41&arrs2[]=59&arrs2[]=63&arrs2[]=62&arrs2[]=39&arrs2[]=41&arrs2[]=59&arrs2[]=0"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign,0.8598094582557678,7.869120121002197,8.718049049377441,0,benign,accepted
+"GET /plus/download.php?open=1&arrs1[]=99&arrs1[]=102&arrs1[]=103&arrs1[]=95&arrs1[]=100&arrs1[]=98&arrs1[]=112&arrs1[]=114&arrs1[]=101&arrs1[]=102&arrs1[]=105&arrs1[]=120&arrs2[]=109&arrs2[]=121&arrs2[]=97&arrs2[]=100&arrs2[]=96&arrs2[]=32&arrs2[]=83&arrs2[]=69&arrs2[]=84&arrs2[]=32&arrs2[]=96&arrs2[]=110&arrs2[]=111&arrs2[]=114&arrs2[]=109&arrs2[]=98&arrs2[]=111&arrs2[]=100&arrs2[]=121&arrs2[]=96&arrs2[]=32&arrs2[]=61&arrs2[]=32&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=102&arrs2[]=105&arrs2[]=108&arrs2[]=101&arrs2[]=95&arrs2[]=112&arrs2[]=117&arrs2[]=116&arrs2[]=95&arrs2[]=99&arrs2[]=111&arrs2[]=110&arrs2[]=116&arrs2[]=101&arrs2[]=110&arrs2[]=116&arrs2[]=115&arrs2[]=40&arrs2[]=39&arrs2[]=39&arrs2[]=109&arrs2[]=111&arrs2[]=111&arrs2[]=110&arrs2[]=46&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=39&arrs2[]=39&arrs2[]=44&arrs2[]=39&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=101&arrs2[]=118&arrs2[]=97&arrs2[]=108&arrs2[]=40&ar HTTP/1.1 STATUS=418 BYTES=746 REF=""http://www.secrepo.com/plus/download.php?open=1&arrs1[]=99&arrs1[]=102&arrs1[]=103&arrs1[]=95&arrs1[]=100&arrs1[]=98&arrs1[]=112&arrs1[]=114&arrs1[]=101&arrs1[]=102&arrs1[]=105&arrs1[]=120&arrs2[]=109&arrs2[]=121&arrs2[]=97&arrs2[]=100&arrs2[]=96&arrs2[]=32&arrs2[]=83&arrs2[]=69&arrs2[]=84&arrs2[]=32&arrs2[]=96&arrs2[]=110&arrs2[]=111&arrs2[]=114&arrs2[]=109&arrs2[]=98&arrs2[]=111&arrs2[]=100&arrs2[]=121&arrs2[]=96&arrs2[]=32&arrs2[]=61&arrs2[]=32&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=102&arrs2[]=105&arrs2[]=108&arrs2[]=101&arrs2[]=95&arrs2[]=112&arrs2[]=117&arrs2[]=116&arrs2[]=95&arrs2[]=99&arrs2[]=111&arrs2[]=110&arrs2[]=116&arrs2[]=101&arrs2[]=110&arrs2[]=116&arrs2[]=115&arrs2[]=40&arrs2[]=39&arrs2[]=39&arrs2[]=109&arrs2[]=111&arrs2[]=111&arrs2[]=110&arrs2[]=46&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=39&arrs2[]=39&arrs2[]=44&arrs2[]=39&arrs2[]=39&arrs2[]=60&arrs2[]=63&arrs2[]=112&arrs2[]=104&arrs2[]=112&arrs2[]=32&arrs2[]=101&arrs2[]=118&arrs2[]=97&arrs2[]=108&arrs2[]=40&ar"" UA=""Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2)""",benign,0.7001081705093384,9.058420181274414,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.7851299047470093,7.816535472869873,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.7851299047470093,7.816535472869873,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.7837300896644592,7.822762966156006,8.718049049377441,1,unknown,low_confidence
+"GET /misc/zeus_dga_domains.txt.zip HTTP/1.1 STATUS=304 BYTES=265 UA=""Java/1.6.0_24""",suspicious_path_probe,0.5164203643798828,7.642580032348633,7.50290560722351,1,unknown,low_confidence+far_from_centroid
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.7740051746368408,7.822351932525635,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27893 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.7817175388336182,7.700104236602783,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.7814079523086548,7.605926036834717,8.718049049377441,1,unknown,low_confidence
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36""",benign,0.8359686732292175,7.166627883911133,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=291 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign,0.7682863473892212,7.861551761627197,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27879 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign,0.7742420434951782,7.768485069274902,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7519 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign,0.7793096303939819,7.627507209777832,8.718049049377441,1,unknown,low_confidence
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=676 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36""",benign,0.8276082277297974,7.238708972930908,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1""",benign,0.7978665828704834,7.535731315612793,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36""",benign,0.7846714854240417,7.795914173126221,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27893 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign,0.782318651676178,7.701304912567139,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7533 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign,0.7830764055252075,7.581896781921387,8.718049049377441,1,unknown,low_confidence
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign,0.836139976978302,7.142345905303955,8.718049049377441,0,benign,accepted
+"GET /data HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign,0.7305219769477844,8.109145164489746,8.718049049377441,1,unknown,low_confidence
+"GET /ftp://download.iwlab.foi.se/dataset/ HTTP/1.1 STATUS=404 BYTES=328 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36""",benign,0.7456769943237305,7.895740032196045,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign,0.757914662361145,8.211627006530762,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27916 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign,0.732848584651947,8.339815139770508,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7556 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign,0.7685272097587585,7.863367557525635,8.718049049377441,1,unknown,low_confidence
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=690 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0""",benign,0.8115116357803345,7.621457576751709,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=305 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36""",benign,0.7504436373710632,7.998364448547363,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7529 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7808728814125061,7.613910675048828,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=301 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7789757251739502,7.780300140380859,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27889 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7835508584976196,7.701893329620361,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=301 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7789757251739502,7.780300140380859,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7529 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7808728814125061,7.613910675048828,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27889 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7835508584976196,7.701893329620361,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=315 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1""",benign,0.8025011420249939,7.516244888305664,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=338 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1""",benign,0.8031550049781799,7.498425483703613,8.718049049377441,0,benign,accepted
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27903 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54""",benign,0.7969480156898499,7.52327823638916,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7566 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54""",benign,0.8030743598937988,7.383769512176514,8.718049049377441,0,benign,accepted
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=700 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54""",benign,0.8457913994789124,7.0111083984375,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=315 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7905977368354797,7.773749828338623,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=315 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7483487129211426,8.000853538513184,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27926 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7804846167564392,7.695621490478516,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7566 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7868723273277283,7.549427509307861,8.718049049377441,1,unknown,low_confidence
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=700 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.838326632976532,7.106441974639893,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=301 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7789757251739502,7.780300140380859,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27889 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7835508584976196,7.701893329620361,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7529 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36""",benign,0.7808728814125061,7.613910675048828,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=315 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Linux; Android 12; EB2101) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36""",benign,0.7774180173873901,7.827059268951416,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=294 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.50""",benign,0.7826718688011169,7.832711219787598,8.718049049377441,1,unknown,low_confidence
+"GET  HTTP/1.1 STATUS=429 BYTES=430 REF=""http://secrepo.com"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64)""",benign,0.6660281419754028,9.019462585449219,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27903 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54""",benign,0.7969480156898499,7.52327823638916,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=338 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54""",benign,0.7898494601249695,7.644964694976807,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7566 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54""",benign,0.8030744194984436,7.383769512176514,8.718049049377441,0,benign,accepted
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=700 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54""",benign,0.8457913994789124,7.0111083984375,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=315 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7483487129211426,8.000853538513184,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27903 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7802124619483948,7.699594020843506,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7566 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7868723273277283,7.549427509307861,8.718049049377441,1,unknown,low_confidence
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=700 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.838326632976532,7.106441974639893,8.718049049377441,0,benign,accepted
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27903 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7802124619483948,7.699594020843506,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7566 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7868723273277283,7.549427509307861,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=338 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (iPhone; CPU iPhone OS 16_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1""",benign,0.8031550049781799,7.498425483703613,8.718049049377441,0,benign,accepted
+"HEAD /backups/website.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9490207433700562,6.482561111450195,8.718049049377441,0,benign,accepted
+"HEAD /back/application.zip HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",suspicious_path_probe,0.7189963459968567,5.637268543243408,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/web.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.7240052223205566,5.593845367431641,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/www.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.6805660724639893,5.960092067718506,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/index.zip HTTP/1.1 STATUS=301 BYTES=180 UA=""-""",suspicious_path_probe,0.7302885055541992,6.222553253173828,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/index.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe,0.7129724025726318,6.2943902015686035,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/directory.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6737714409828186,9.26309585571289,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /restore/website.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6547006368637085,9.681685447692871,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /application.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.66182941198349,5.940223693847656,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/bak.zip HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",suspicious_path_probe,0.7259119749069214,5.7943315505981445,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/.bash_history HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9055383205413818,7.501091003417969,8.718049049377441,0,benign,accepted
+"HEAD /bak/secrepo.com.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.806721568107605,8.339274406433105,8.718049049377441,0,benign,accepted
+"HEAD /restore/config.js HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9589964747428894,6.936700820922852,8.718049049377441,0,benign,accepted
+"HEAD /www.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9535529017448425,7.058200836181641,8.718049049377441,0,benign,accepted
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27926 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7804846167564392,7.695621490478516,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7566 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7868723273277283,7.549427509307861,8.718049049377441,1,unknown,low_confidence
+"HEAD /public_html.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9175374507904053,7.250612258911133,8.718049049377441,0,benign,accepted
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=723 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.8413801193237305,7.053958415985107,8.718049049377441,0,benign,accepted
+"HEAD /back/www.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9470701813697815,7.108562469482422,8.718049049377441,0,benign,accepted
+"HEAD /backups/backup.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5117012858390808,10.136200904846191,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /config.js HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9578878283500671,7.13613748550415,8.718049049377441,0,benign,accepted
+"HEAD /old/website.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9604098796844482,6.465146064758301,8.718049049377441,0,benign,accepted
+"HEAD /back/.bash_history HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.890749990940094,7.549411773681641,8.718049049377441,0,benign,accepted
+"HEAD /backups/www.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9168864488601685,7.228390693664551,8.718049049377441,0,benign,accepted
+"HEAD /bak/website.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6325327157974243,9.618566513061523,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /bak/dump.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9281529188156128,6.870876312255859,8.718049049377441,0,benign,accepted
+"HEAD /backups/application.zip HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",suspicious_path_probe,0.71828293800354,5.747567176818848,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/directory.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9680697321891785,5.969174385070801,8.718049049377441,0,benign,accepted
+"HEAD /old/www.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9566294550895691,6.864460468292236,8.718049049377441,0,benign,accepted
+"HEAD /backups/directory.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9625540971755981,5.942561149597168,8.718049049377441,0,benign,accepted
+"HEAD /old/backup.sql.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9746005535125732,5.651981830596924,8.718049049377441,0,benign,accepted
+"HEAD /bak/backup.sql.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7194032073020935,8.946832656860352,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backup.zip HTTP/1.1 STATUS=301 BYTES=177 UA=""-""",suspicious_path_probe,0.7773561477661133,5.465964317321777,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/bak.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9434913396835327,6.853701114654541,8.718049049377441,0,benign,accepted
+"HEAD /restore/backup.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9160553216934204,7.1019768714904785,8.718049049377441,0,benign,accepted
+"HEAD /backups/index.zip HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",suspicious_path_probe,0.747314989566803,5.831278324127197,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/public_html.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7435196042060852,9.187652587890625,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /back/backup.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9012349247932434,7.501333713531494,8.718049049377441,0,benign,accepted
+"HEAD /backups/backup.sql.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.702149510383606,9.087430000305176,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /directory.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8703248500823975,7.893123626708984,8.718049049377441,0,benign,accepted
+"HEAD /backups/www.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5570852756500244,9.931049346923828,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /old/web.zip HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",suspicious_path_probe,0.7138920426368713,5.794803619384766,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup/mysql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.918460488319397,7.18684720993042,8.718049049377441,0,benign,accepted
+"HEAD /old/config.js HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9546061158180237,7.198172569274902,8.718049049377441,0,benign,accepted
+"HEAD /old/public_html.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe,0.5317730903625488,6.606199741363525,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup.sql.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7067161202430725,9.075163841247559,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backups/config.js HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9547482132911682,6.447073459625244,8.718049049377441,0,benign,accepted
+"HEAD /back/config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.978272557258606,5.971065521240234,8.718049049377441,0,benign,accepted
+"HEAD /bak/www.zip HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",suspicious_path_probe,0.7420489192008972,5.650295734405518,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup/www.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9463784694671631,6.651139736175537,8.718049049377441,0,benign,accepted
+"HEAD /bak/website.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.955162525177002,6.5857672691345215,8.718049049377441,0,benign,accepted
+"HEAD /old/bak.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9544677734375,6.593112468719482,8.718049049377441,0,benign,accepted
+"HEAD /bak.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9497894644737244,6.952512741088867,8.718049049377441,0,benign,accepted
+"HEAD /restore/www.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9335590600967407,7.298615455627441,8.718049049377441,0,benign,accepted
+"HEAD /bak/backup.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5175510048866272,10.08397102355957,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backups/www.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8004956245422363,8.449273109436035,8.718049049377441,1,unknown,low_confidence
+"HEAD /website.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6113064885139465,9.999147415161133,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /old/wallet.dat HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8835453987121582,7.9416584968566895,8.718049049377441,0,benign,accepted
+"HEAD /backups/backup.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8917262554168701,7.6088547706604,8.718049049377441,0,benign,accepted
+"HEAD /back/www.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7942807674407959,8.801825523376465,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backups/www.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9455049633979797,6.5171589851379395,8.718049049377441,0,benign,accepted
+"HEAD /secrepo.com.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6261615753173828,9.860023498535156,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backups/public_html.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.901682436466217,7.304704666137695,8.718049049377441,0,benign,accepted
+"HEAD /bak/public_html.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe,0.5043039917945862,6.5683722496032715,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/directory.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.966354250907898,6.235055923461914,8.718049049377441,0,benign,accepted
+"HEAD /restore/backup.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8009955286979675,8.28256607055664,8.718049049377441,1,unknown,low_confidence
+"HEAD /back/backup.sql.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9738153219223022,5.917245388031006,8.718049049377441,0,benign,accepted
+"HEAD /backups/credentials.txt HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7331469655036926,8.881174087524414,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /old/website.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8460288643836975,8.23887825012207,8.718049049377441,0,benign,accepted
+"HEAD /backup/directory.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9618099331855774,5.9354143142700195,8.718049049377441,0,benign,accepted
+"HEAD /backup/application.zip HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",suspicious_path_probe,0.7213196754455566,5.698784828186035,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/sftp-config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9758409857749939,5.345402240753174,8.718049049377441,0,benign,accepted
+"HEAD /backup/index.zip HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",suspicious_path_probe,0.756874680519104,5.798050403594971,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/secrepo.com.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9541802406311035,6.355133056640625,8.718049049377441,0,benign,accepted
+"HEAD /backup/backup.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7714157104492188,8.558076858520508,8.718049049377441,1,unknown,low_confidence
+"HEAD /backup.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9404659271240234,6.672982215881348,8.718049049377441,0,benign,accepted
+"HEAD /restore/bak.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8223997950553894,8.5387544631958,8.718049049377441,0,benign,accepted
+"HEAD /www.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8141997456550598,8.756669044494629,8.718049049377441,1,unknown,far_from_centroid
+"HEAD /bak.zip HTTP/1.1 STATUS=301 BYTES=174 UA=""-""",suspicious_path_probe,0.7360836267471313,5.690483570098877,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/sftp-config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9789911508560181,5.3460283279418945,8.718049049377441,0,benign,accepted
+"HEAD /back/wallet.dat HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8532306551933289,8.233683586120605,8.718049049377441,0,benign,accepted
+"HEAD /back/www.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9466267824172974,6.880542278289795,8.718049049377441,0,benign,accepted
+"HEAD /backups/directory.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8546019792556763,7.698870658874512,8.718049049377441,0,benign,accepted
+"HEAD /restore/config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9767507314682007,6.184253215789795,8.718049049377441,0,benign,accepted
+"HEAD /config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9775845408439636,6.265890598297119,8.718049049377441,0,benign,accepted
+"HEAD /back/www.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9197699427604675,7.46975040435791,8.718049049377441,0,benign,accepted
+"HEAD /Archive.zip HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",suspicious_path_probe,0.7976768016815186,5.28798770904541,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/public_html.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9131299257278442,7.299328327178955,8.718049049377441,0,benign,accepted
+"HEAD /restore/directory.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9655184745788574,6.039823532104492,8.718049049377441,0,benign,accepted
+"HEAD /old/secrepo.com.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8197479844093323,8.385784149169922,8.718049049377441,0,benign,accepted
+"HEAD /backup/secrepo.com.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9201154708862305,7.063765525817871,8.718049049377441,0,benign,accepted
+"HEAD /old/backup.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8997746706008911,7.340760707855225,8.718049049377441,0,benign,accepted
+"HEAD /bak/backup.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9429965615272522,6.801970958709717,8.718049049377441,0,benign,accepted
+"HEAD /backup/secrepo.com.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.945098340511322,6.290974140167236,8.718049049377441,0,benign,accepted
+"HEAD /restore/website.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.954289436340332,6.356902122497559,8.718049049377441,0,benign,accepted
+"HEAD /website.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9571947455406189,6.641778469085693,8.718049049377441,0,benign,accepted
+"HEAD /backup/backup.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe,0.491372674703598,6.878878116607666,7.50290560722351,1,unknown,low_confidence
+"HEAD /ftpsync.settings HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8357778787612915,8.232251167297363,8.718049049377441,0,benign,accepted
+"HEAD /backups/wallet.dat HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8548241257667542,8.012910842895508,8.718049049377441,0,benign,accepted
+"HEAD /back/backup.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7779922485351562,8.592034339904785,8.718049049377441,1,unknown,low_confidence
+"HEAD /old/website.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.957926332950592,6.242457389831543,8.718049049377441,0,benign,accepted
+"HEAD /backups/www.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9453060626983643,6.7578253746032715,8.718049049377441,0,benign,accepted
+"HEAD /restore/wallet.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.6686077117919922,5.86448335647583,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/directory.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8673736453056335,7.937865734100342,8.718049049377441,0,benign,accepted
+"HEAD /old/public_html.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9789465665817261,5.515596866607666,8.718049049377441,0,benign,accepted
+"HEAD /bak/www.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5697044730186462,10.110917091369629,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backups/config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9762142300605774,5.698490142822266,8.718049049377441,0,benign,accepted
+"HEAD /restore/website.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.956576943397522,6.556204319000244,8.718049049377441,0,benign,accepted
+"HEAD /old/website.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6284304857254028,9.86016845703125,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /bak/public_html.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9207615256309509,7.064233303070068,8.718049049377441,0,benign,accepted
+"HEAD /old/backup.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5155152678489685,10.060710906982422,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backup/bak.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7809731960296631,8.644011497497559,8.718049049377441,1,unknown,low_confidence
+"HEAD /restore/public_html.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9791533946990967,5.496152400970459,8.718049049377441,0,benign,accepted
+"HEAD /backups/public_html.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9764684438705444,5.512660026550293,8.718049049377441,0,benign,accepted
+"HEAD /dump.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9136130809783936,7.531976699829102,8.718049049377441,0,benign,accepted
+"HEAD /restore/dump.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9285098910331726,7.094039440155029,8.718049049377441,0,benign,accepted
+"HEAD /bak/backup.sql.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9737038016319275,5.922612190246582,8.718049049377441,0,benign,accepted
+"HEAD /bak/config.js HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9625886678695679,6.678825855255127,8.718049049377441,0,benign,accepted
+"HEAD /back/secrepo.com.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6368800401687622,9.495527267456055,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backup/bak.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.941124439239502,6.72702693939209,8.718049049377441,0,benign,accepted
+"HEAD /back/secrepo.com.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7955553531646729,8.433150291442871,8.718049049377441,1,unknown,low_confidence
+"HEAD /backup/backup.sql.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9710221886634827,5.807960510253906,8.718049049377441,0,benign,accepted
+"HEAD /backup/www.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9463210701942444,6.4312567710876465,8.718049049377441,0,benign,accepted
+"HEAD /backup/directory.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6670415997505188,9.093098640441895,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backup/config.js HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9576742649078369,6.4012322425842285,8.718049049377441,0,benign,accepted
+"HEAD /old/bak.zip HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",suspicious_path_probe,0.7148433327674866,5.674497604370117,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/backup.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7886585593223572,8.400507926940918,8.718049049377441,1,unknown,low_confidence
+"HEAD /backup/bak.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5442847609519958,10.088326454162598,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /restore/www.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9549934267997742,6.594779014587402,8.718049049377441,0,benign,accepted
+"HEAD /backup.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5001453757286072,10.24818229675293,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /bak.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9500665664672852,7.150661468505859,8.718049049377441,0,benign,accepted
+"HEAD /old/directory.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6907851696014404,9.455680847167969,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /old/sql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9203508496284485,7.696905136108398,8.718049049377441,0,benign,accepted
+"HEAD /bak/www.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9528552293777466,6.933856964111328,8.718049049377441,0,benign,accepted
+"HEAD /backups/public_html.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7376497983932495,8.845318794250488,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /restore/sql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9476815462112427,6.94323205947876,8.718049049377441,0,benign,accepted
+"HEAD /bak/www.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8163982629776001,8.607784271240234,8.718049049377441,0,benign,accepted
+"HEAD /www.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9524969458580017,6.86114501953125,8.718049049377441,0,benign,accepted
+"HEAD /restore/secrepo.com.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9347552061080933,6.9943623542785645,8.718049049377441,0,benign,accepted
+"HEAD /backups/backup.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9409299492835999,6.783870220184326,8.718049049377441,0,benign,accepted
+"HEAD /.bash_history HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9066306948661804,7.561333656311035,8.718049049377441,0,benign,accepted
+"HEAD /wallet.zip HTTP/1.1 STATUS=301 BYTES=177 UA=""-""",suspicious_path_probe,0.7348873019218445,5.718267917633057,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/backup.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9451919794082642,6.345798015594482,8.718049049377441,0,benign,accepted
+"HEAD /backups/sql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9116349816322327,7.272746562957764,8.718049049377441,0,benign,accepted
+"HEAD /backup/credentials.txt HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7367137670516968,8.910049438476562,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backup/backup.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9363041520118713,6.6521196365356445,8.718049049377441,0,benign,accepted
+"HEAD /backup/directory.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8502995371818542,7.698367595672607,8.718049049377441,0,benign,accepted
+"HEAD /backup/public_html.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7679987549781799,8.66454029083252,8.718049049377441,1,unknown,low_confidence
+"HEAD /bak/backup.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.940645694732666,6.659878253936768,8.718049049377441,0,benign,accepted
+"HEAD /old/directory.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9678444862365723,6.1720404624938965,8.718049049377441,0,benign,accepted
+"HEAD /bak/secrepo.com.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe,0.6700356602668762,5.764537811279297,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/www.zip HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",suspicious_path_probe,0.7316305041313171,5.91064977645874,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/dump.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9177497625350952,7.341630935668945,8.718049049377441,0,benign,accepted
+"HEAD /restore/backup.sql.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9748176336288452,5.645658016204834,8.718049049377441,0,benign,accepted
+"POST /include/dialog/select_images_post.php?CKEditor=body&CKEditorFuncNum=2&langCode=zh-cn HTTP/1.1 STATUS=404 BYTES=338 UA=""python-requests/2.27.1""",benign,0.5027307868003845,9.456311225891113,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"POST /include/dialog/select_images_post.php?CKEditor=body&CKEditorFuncNum=2&langCode=zh-cn HTTP/1.1 STATUS=404 BYTES=338 UA=""python-requests/2.27.1""",benign,0.5027307868003845,9.456311225891113,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /sql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9311410784721375,7.578484535217285,8.718049049377441,0,benign,accepted
+"HEAD /directory.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9676480889320374,6.215407371520996,8.718049049377441,0,benign,accepted
+"HEAD /bak/www.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9290017485618591,7.291051387786865,8.718049049377441,0,benign,accepted
+"HEAD /bak/.bash_history HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9038445353507996,7.35092306137085,8.718049049377441,0,benign,accepted
+"HEAD /public_html.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe,0.5314397811889648,6.639535427093506,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/secrepo.com.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.914936363697052,7.154455661773682,8.718049049377441,0,benign,accepted
+"HEAD /backups/backup.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9382579922676086,6.651400566101074,8.718049049377441,0,benign,accepted
+"HEAD /bak/website.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8321773409843445,8.310747146606445,8.718049049377441,0,benign,accepted
+"HEAD /back/www.zip HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",suspicious_path_probe,0.7682439684867859,5.629734039306641,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/sql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9321520924568176,7.172762870788574,8.718049049377441,0,benign,accepted
+"HEAD /backups/secrepo.com.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.582724392414093,9.736319541931152,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /restore/public_html.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9784343838691711,5.404845714569092,8.718049049377441,0,benign,accepted
+"HEAD /backup/secrepo.com.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5818601846694946,9.712504386901855,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /public_html.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7584707140922546,9.11367130279541,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backup/backup.sql.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6934705376625061,9.021478652954102,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /www.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9205552935600281,7.708451747894287,8.718049049377441,0,benign,accepted
+"HEAD /old/www.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9548928737640381,6.694186210632324,8.718049049377441,0,benign,accepted
+"HEAD /backup/sftp-config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.978317379951477,5.315389633178711,8.718049049377441,0,benign,accepted
+"HEAD /old/config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9761945605278015,6.286991596221924,8.718049049377441,0,benign,accepted
+"HEAD /backup.sql.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9737049341201782,5.919246673583984,8.718049049377441,0,benign,accepted
+"HEAD /backup.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.777114748954773,8.602080345153809,8.718049049377441,1,unknown,low_confidence
+"HEAD /bak/wallet.dat HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8691843152046204,8.018221855163574,8.718049049377441,0,benign,accepted
+"HEAD /bak/application.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.6633359789848328,5.752351760864258,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup/.bash_history HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8888437747955322,7.438136100769043,8.718049049377441,0,benign,accepted
+"HEAD /backups/backup.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.777502179145813,8.535195350646973,8.718049049377441,1,unknown,low_confidence
+"HEAD /old/application.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.6890863180160522,5.735211372375488,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/www.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9264386296272278,7.488030433654785,8.718049049377441,0,benign,accepted
+"HEAD /__MACOSX.zip HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",suspicious_path_probe,0.7611603140830994,5.810152530670166,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/bak.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7997639179229736,8.829938888549805,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backups/.bash_history HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8945540189743042,7.337983131408691,8.718049049377441,0,benign,accepted
+"HEAD /backups/public_html.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9753108620643616,5.419641017913818,8.718049049377441,0,benign,accepted
+"HEAD /backup/config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9779065847396851,5.598474025726318,8.718049049377441,0,benign,accepted
+"HEAD /restore/website.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8427898287773132,8.244001388549805,8.718049049377441,0,benign,accepted
+"HEAD /archive.zip HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",suspicious_path_probe,0.7705889344215393,5.365095138549805,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/backup.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9456308484077454,6.53676176071167,8.718049049377441,0,benign,accepted
+"HEAD /directory.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9667746424674988,6.040763854980469,8.718049049377441,0,benign,accepted
+"HEAD /restore/index.zip HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",suspicious_path_probe,0.6602969169616699,6.193222522735596,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/www.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9520487189292908,6.703815937042236,8.718049049377441,0,benign,accepted
+"HEAD /old/public_html.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9129692316055298,7.290571212768555,8.718049049377441,0,benign,accepted
+"HEAD /back/bak.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7866515517234802,8.947412490844727,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backup/wallet.dat HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8602815270423889,7.950940132141113,8.718049049377441,0,benign,accepted
+"HEAD /back/website.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8158617615699768,8.4971923828125,8.718049049377441,0,benign,accepted
+"HEAD /backups/bak.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5592687129974365,10.030265808105469,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /secrepo.com.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8112727403640747,8.476259231567383,8.718049049377441,0,benign,accepted
+"HEAD /bak/web.zip HTTP/1.1 STATUS=301 BYTES=178 UA=""-""",suspicious_path_probe,0.7404849529266357,5.514438629150391,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/secrepo.com.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6640884876251221,9.55997085571289,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /old/bak.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8121590614318848,8.632346153259277,8.718049049377441,0,benign,accepted
+"HEAD /restore/secrepo.com.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9531596899032593,6.307112216949463,8.718049049377441,0,benign,accepted
+"HEAD /website.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9549617171287537,6.419816970825195,8.718049049377441,0,benign,accepted
+"HEAD /bak/backup.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7762718200683594,8.585537910461426,8.718049049377441,1,unknown,low_confidence
+"HEAD /restore/wallet.dat HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8972625136375427,7.710733890533447,8.718049049377441,0,benign,accepted
+"HEAD /backup/web.zip HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",suspicious_path_probe,0.7913474440574646,5.352654457092285,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/dump.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9221486449241638,7.055370330810547,8.718049049377441,0,benign,accepted
+"HEAD /bak/website.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9543577432632446,6.309547424316406,8.718049049377441,0,benign,accepted
+"HEAD /back/credentials.txt HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.733398973941803,9.11329460144043,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /restore/backup.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5773720741271973,9.71144962310791,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /back/backup.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9408259987831116,6.66762113571167,8.718049049377441,0,benign,accepted
+"HEAD /backup/sql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9236798286437988,7.142134666442871,8.718049049377441,0,benign,accepted
+"HEAD /wallet.dat HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8737846612930298,8.127365112304688,8.718049049377441,0,benign,accepted
+"HEAD /backups/bak.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.78676438331604,8.599087715148926,8.718049049377441,1,unknown,low_confidence
+"HEAD /bak/directory.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8694562911987305,7.703848838806152,8.718049049377441,0,benign,accepted
+"HEAD /backup/directory.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9612329602241516,5.754390716552734,8.718049049377441,0,benign,accepted
+"HEAD /old/directory.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9669341444969177,6.0026655197143555,8.718049049377441,0,benign,accepted
+"HEAD /old/bak.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9538446664810181,6.840829372406006,8.718049049377441,0,benign,accepted
+"HEAD /backup.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8962433934211731,7.578832626342773,8.718049049377441,0,benign,accepted
+"HEAD /old/secrepo.com.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe,0.6850176453590393,5.787647724151611,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/sftp-config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9753134846687317,5.760207653045654,8.718049049377441,0,benign,accepted
+"HEAD /back/config.js HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9569340348243713,6.7953596115112305,8.718049049377441,0,benign,accepted
+"HEAD /back/web.zip HTTP/1.1 STATUS=301 BYTES=179 UA=""-""",suspicious_path_probe,0.774721086025238,5.4762067794799805,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9429522752761841,6.824003219604492,8.718049049377441,0,benign,accepted
+"HEAD /bak/index.zip HTTP/1.1 STATUS=301 BYTES=180 UA=""-""",suspicious_path_probe,0.7148724794387817,5.962979793548584,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/public_html.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7795573472976685,8.658352851867676,8.718049049377441,1,unknown,low_confidence
+"HEAD /backup/website.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9518879652023315,6.379664421081543,8.718049049377441,0,benign,accepted
+"HEAD /bak/backup.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9017937183380127,7.4263014793396,8.718049049377441,0,benign,accepted
+"HEAD /backups/website.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9482702016830444,6.265198707580566,8.718049049377441,0,benign,accepted
+"HEAD /old/public_html.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9782529473304749,5.434872627258301,8.718049049377441,0,benign,accepted
+"HEAD /backups/website.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8165535926818848,8.249960899353027,8.718049049377441,0,benign,accepted
+"HEAD /sftp-config.json HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9739342927932739,5.931066989898682,8.718049049377441,0,benign,accepted
+"HEAD /restore/latest.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.7155601978302002,5.607891082763672,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7952443361282349,8.902222633361816,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /secrepo.com.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.928187906742096,7.212230205535889,8.718049049377441,0,benign,accepted
+"HEAD /backup/backup.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9395380020141602,6.787553787231445,8.718049049377441,0,benign,accepted
+"HEAD /old/secrepo.com.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9285772442817688,7.207125663757324,8.718049049377441,0,benign,accepted
+"HEAD /backups/mysql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9086121320724487,7.416184902191162,8.718049049377441,0,benign,accepted
+"HEAD /backup/www.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7964188456535339,8.3886079788208,8.718049049377441,1,unknown,low_confidence
+"HEAD /backups/website.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6015308499336243,9.606657028198242,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /back/website.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5961043238639832,9.811145782470703,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backup/website.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9506787657737732,6.179429531097412,8.718049049377441,0,benign,accepted
+"HEAD /restore/bak.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9561161994934082,6.766487121582031,8.718049049377441,0,benign,accepted
+"HEAD /backup/public_html.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9124505519866943,7.063554763793945,8.718049049377441,0,benign,accepted
+"HEAD /old/secrepo.com.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.6138625741004944,9.946415901184082,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backups/dump.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9175517559051514,7.077359199523926,8.718049049377441,0,benign,accepted
+"HEAD /backup/www.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9237512350082397,7.030135154724121,8.718049049377441,0,benign,accepted
+"HEAD /restore/secrepo.com.zip HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",suspicious_path_probe,0.6345227956771851,5.94106912612915,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/www.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.5421933531761169,10.510720252990723,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /restore/secrepo.com.tar.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.8283749222755432,8.26439380645752,8.718049049377441,0,benign,accepted
+"HEAD /restore/bak.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9559397101402283,6.537513732910156,8.718049049377441,0,benign,accepted
+"HEAD /backups/www.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.7404331564903259,5.62326717376709,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/application.zip HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",suspicious_path_probe,0.6513980627059937,5.874269485473633,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/backup.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9431944489479065,6.820546627044678,8.718049049377441,0,benign,accepted
+"HEAD /backup/www.zip HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",suspicious_path_probe,0.7910735011100769,5.443417072296143,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/credentials.txt HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7682961225509644,8.851994514465332,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /old/backup.sql.gz HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.7122890949249268,8.942562103271484,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /old/backup.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9433830976486206,6.382802486419678,8.718049049377441,0,benign,accepted
+"HEAD /back/index.zip HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",suspicious_path_probe,0.7733396291732788,5.798057556152344,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/mysql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9168225526809692,7.726264953613281,8.718049049377441,0,benign,accepted
+"HEAD /backups/secrepo.com.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9407481551170349,6.401623249053955,8.718049049377441,0,benign,accepted
+"HEAD /bak/sql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9439741373062134,6.947321891784668,8.718049049377441,0,benign,accepted
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27926 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36""",benign,0.7904492616653442,7.649494171142578,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7566 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36""",benign,0.797391951084137,7.48738956451416,8.718049049377441,1,unknown,low_confidence
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=679 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36""",benign,0.839336097240448,7.148553371429443,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=301 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36""",benign,0.7891477346420288,7.69528341293335,8.718049049377441,1,unknown,low_confidence
+"GET /twitter-icon.png HTTP/1.1 STATUS=200 BYTES=27848 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.791236162185669,7.647977352142334,8.718049049377441,1,unknown,low_confidence
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=294 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7694763541221619,7.867059230804443,8.718049049377441,1,unknown,low_confidence
+"GET /GitHub-Mark.png HTTP/1.1 STATUS=200 BYTES=7522 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.7754328846931458,7.65078592300415,8.718049049377441,1,unknown,low_confidence
+"GET /bootstrap/img/favicon.ico HTTP/1.1 STATUS=200 BYTES=645 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36""",benign,0.8369093537330627,7.124996185302734,8.718049049377441,0,benign,accepted
+"GET /css/style.css HTTP/1.1 STATUS=404 BYTES=315 REF=""http://www.secrepo.com/"" UA=""Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36""",benign,0.7908081412315369,7.7775397300720215,8.718049049377441,1,unknown,low_confidence
+"GET /xxxss HTTP/1.1 STATUS=404 BYTES=338 UA=""Mozilla/5.0 (Windows NT 10.0; WOW64; rv:48.0) Gecko/20100101 Firefox/48.0""",benign,0.6809872984886169,9.1008939743042,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /restore/archive.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.6872281432151794,5.615918159484863,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/backup.zip HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",suspicious_path_probe,0.7617819905281067,5.472626209259033,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/website.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.6955796480178833,5.728423595428467,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/archive.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.7519004940986633,5.383825302124023,7.50290560722351,1,unknown,low_confidence
+"HEAD /secrepo.com.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.7084481120109558,5.726132869720459,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/backup.zip HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",suspicious_path_probe,0.7609549760818481,5.447233200073242,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/bak.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.712641716003418,5.630594253540039,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/mysql.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.921048641204834,7.480287551879883,8.718049049377441,0,benign,accepted
+"HEAD /backups/website.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.732254683971405,5.636929035186768,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/archive.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.757521390914917,5.369447231292725,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/website.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9507957100868225,6.788321495056152,8.718049049377441,0,benign,accepted
+"HEAD /old/public_html.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.522594690322876,6.612819671630859,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/full_backup.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.7406686544418335,5.476004600524902,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/backup.sql.zip HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",suspicious_path_probe,0.6333646178245544,6.120297908782959,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/directory.zip HTTP/1.1 STATUS=301 BYTES=188 UA=""-""",suspicious_path_probe,0.5819194912910461,6.240139484405518,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/Archive.zip HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",suspicious_path_probe,0.7993638515472412,5.268244743347168,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/public_html.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",benign,0.4977356791496277,10.504327774047852,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backups/Archive.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.7837819457054138,5.178025245666504,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/full_backup.zip HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",suspicious_path_probe,0.7551180720329285,5.480738162994385,7.50290560722351,1,unknown,low_confidence
+"HEAD /www.tar.gz HTTP/1.1 STATUS=301 BYTES=177 UA=""-""",benign,0.8066914677619934,8.80553150177002,8.718049049377441,1,unknown,far_from_centroid
+"HEAD /back/secrepo.com.zip HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",suspicious_path_probe,0.7161787748336792,5.713503360748291,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/wallet.zip HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",suspicious_path_probe,0.7214703559875488,5.696333408355713,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/directory.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9678322672843933,5.749728202819824,8.718049049377441,0,benign,accepted
+"HEAD /back/latest.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.772011399269104,5.404882907867432,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup/website.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.7669562101364136,5.523716449737549,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/bak.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9513380527496338,7.104557991027832,8.718049049377441,0,benign,accepted
+"HEAD /bak/www.gz HTTP/1.1 STATUS=301 BYTES=177 UA=""-""",benign,0.5419808626174927,10.305187225341797,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /restore/website.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.66545569896698,5.8552565574646,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/backup.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.7444994449615479,5.626730918884277,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/public_html.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9808335304260254,5.327334880828857,8.718049049377441,0,benign,accepted
+"HEAD /back/secrepo.com.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9328911900520325,6.936716556549072,8.718049049377441,0,benign,accepted
+"HEAD /backups/backup.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.7621400952339172,5.607541084289551,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup/bak.zip HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",suspicious_path_probe,0.7590221166610718,5.473378658294678,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/public_html.zip HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",suspicious_path_probe,0.49765723943710327,6.618790149688721,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/wallet.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.7357711791992188,5.600603103637695,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/secrepo.com.sql HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9350116848945618,6.81988000869751,8.718049049377441,0,benign,accepted
+"HEAD /backup/backup.sql.zip HTTP/1.1 STATUS=301 BYTES=188 UA=""-""",suspicious_path_probe,0.6173566579818726,6.159728527069092,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/secrepo.com.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.6901900768280029,5.643141746520996,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup/archive.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.7894175052642822,5.247067451477051,7.50290560722351,1,unknown,low_confidence
+"HEAD /public_html.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.5231544971466064,6.653339862823486,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/archive.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.7487913966178894,5.366593360900879,7.50290560722351,1,unknown,low_confidence
+"HEAD /public_html.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9797379970550537,5.385746479034424,8.718049049377441,0,benign,accepted
+"HEAD /backups/wallet.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.7351053357124329,5.591536045074463,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/bak.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.6215531826019287,6.038287162780762,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/public_html.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9791111350059509,5.611248016357422,8.718049049377441,0,benign,accepted
+"HEAD /bak/full_backup.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.7359145283699036,5.468507289886475,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup/backup.zip HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",suspicious_path_probe,0.7615330815315247,5.500351428985596,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/secrepo.com.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9492314457893372,6.357206344604492,8.718049049377441,0,benign,accepted
+"HEAD /full_backup.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.7468569874763489,5.5880818367004395,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/backup.sql.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.6200065016746521,6.135221004486084,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/website.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.6915351152420044,5.843236923217773,7.50290560722351,1,unknown,low_confidence
+"HEAD /directory.zip HTTP/1.1 STATUS=301 BYTES=180 UA=""-""",suspicious_path_probe,0.6096278429031372,6.303832054138184,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/latest.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.7855343818664551,5.330384731292725,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup/public_html.zip HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",suspicious_path_probe,0.5340561270713806,6.657317638397217,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/backup.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.7032641172409058,5.750682830810547,7.50290560722351,1,unknown,low_confidence
+"HEAD /public_html.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9804286360740662,5.457357406616211,8.718049049377441,0,benign,accepted
+"HEAD /bak/public_html.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9802150726318359,5.198407173156738,8.718049049377441,0,benign,accepted
+"HEAD /old/directory.zip HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",suspicious_path_probe,0.5886950492858887,6.285746097564697,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/backup.sql.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.6220840215682983,6.185753345489502,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/secrepo.com.zip HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",suspicious_path_probe,0.7453027963638306,5.48025369644165,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/public_html.zip HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",suspicious_path_probe,0.5758576989173889,6.424247741699219,7.50290560722351,1,unknown,low_confidence
+"HEAD /backup/latest.zip HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",suspicious_path_probe,0.7905240654945374,5.292487144470215,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/website.zip HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",suspicious_path_probe,0.7440473437309265,5.6967926025390625,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/bak.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9468770027160645,7.242405891418457,8.718049049377441,0,benign,accepted
+"HEAD /backup/wallet.zip HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",suspicious_path_probe,0.7504496574401855,5.507715702056885,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/full_backup.zip HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",suspicious_path_probe,0.7512868642807007,5.571282863616943,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/secrepo.com.zip HTTP/1.1 STATUS=301 BYTES=186 UA=""-""",suspicious_path_probe,0.6847506761550903,5.7923359870910645,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/wallet.zip HTTP/1.1 STATUS=301 BYTES=181 UA=""-""",suspicious_path_probe,0.7220486402511597,5.579809665679932,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/public_html.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9785796403884888,5.450653076171875,8.718049049377441,0,benign,accepted
+"HEAD /back/directory.tar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.9641923904418945,6.168951511383057,8.718049049377441,0,benign,accepted
+"HEAD /old/backup.sql.zip HTTP/1.1 STATUS=301 BYTES=185 UA=""-""",suspicious_path_probe,0.6158837676048279,6.152599334716797,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/secrepo.com.rar HTTP/1.1 STATUS=404 BYTES=275 UA=""-""",benign,0.951846182346344,6.243052959442139,8.718049049377441,0,benign,accepted
+"HEAD /restore/backup.sql.zip HTTP/1.1 STATUS=301 BYTES=189 UA=""-""",suspicious_path_probe,0.5737906098365784,6.320508003234863,7.50290560722351,1,unknown,low_confidence
+"HEAD /bak/Archive.zip HTTP/1.1 STATUS=301 BYTES=182 UA=""-""",suspicious_path_probe,0.7708889842033386,5.272681713104248,7.50290560722351,1,unknown,low_confidence
+"HEAD /backups/directory.zip HTTP/1.1 STATUS=301 BYTES=188 UA=""-""",suspicious_path_probe,0.6182278990745544,6.183493614196777,7.50290560722351,1,unknown,low_confidence
+"HEAD /restore/secrepo.com.zip HTTP/1.1 STATUS=301 BYTES=190 UA=""-""",suspicious_path_probe,0.6431759595870972,5.926036357879639,7.50290560722351,1,unknown,low_confidence
+"HEAD /old/www.gz HTTP/1.1 STATUS=301 BYTES=177 UA=""-""",benign,0.5386567115783691,10.495777130126953,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /bak/directory.zip HTTP/1.1 STATUS=301 BYTES=184 UA=""-""",suspicious_path_probe,0.5975222587585449,6.076781749725342,7.50290560722351,1,unknown,low_confidence
+"HEAD /www.gz HTTP/1.1 STATUS=301 BYTES=173 UA=""-""",benign,0.5243549346923828,10.65988540649414,8.718049049377441,1,unknown,low_confidence+far_from_centroid
+"HEAD /backup/directory.zip HTTP/1.1 STATUS=301 BYTES=187 UA=""-""",suspicious_path_probe,0.6489734053611755,6.025609970092773,7.50290560722351,1,unknown,low_confidence
+"HEAD /back/archive.zip HTTP/1.1 STATUS=301 BYTES=183 UA=""-""",suspicious_path_probe,0.7860855460166931,5.288473606109619,7.50290560722351,1,unknown,low_confidence

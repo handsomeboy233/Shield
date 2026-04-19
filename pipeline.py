@@ -51,16 +51,20 @@ class DetectionPipeline:
             event = item["event"]
             anomaly_result = item["anomaly"]
             rule_result = self.rule_engine.match(event)
+
             osr_result = self.osr_engine.recognize(
                 event=event,
                 anomaly_result=anomaly_result,
                 rule_result=rule_result,
             )
+            osr_meta = self._decode_osr_reason(osr_result.reason)
+
             final_result = self._aggregate(
                 event=event,
                 rule_result=rule_result,
                 anomaly_result=anomaly_result,
                 osr_result=osr_result,
+                osr_meta=osr_meta,
             )
 
             self.repo.save_detection(
@@ -76,19 +80,30 @@ class DetectionPipeline:
                 "run_id": run_id,
                 "record_id": event.record_id,
                 "source_type": event.source_type,
+
                 "rule_hit": int(rule_result.hit),
                 "rule_name": rule_result.rule_name or "",
                 "rule_severity": rule_result.severity or "",
                 "rule_reason": rule_result.reason,
+
                 "anomaly_score": anomaly_result.score,
                 "anomaly_threshold": anomaly_result.threshold,
                 "anomaly_model": anomaly_result.model_name,
                 "anomaly_version": anomaly_result.model_version,
                 "is_anomaly": int(anomaly_result.is_anomaly),
                 "anomaly_reason": anomaly_result.reason,
+
                 "is_unknown": int(osr_result.is_unknown),
                 "osr_method": osr_result.method,
                 "osr_reason": osr_result.reason,
+                "osr_pred_label": osr_meta.get("pred_label", ""),
+                "osr_final_label": osr_meta.get("final_label", ""),
+                "osr_max_prob": osr_meta.get("max_prob"),
+                "osr_prob_threshold": osr_meta.get("prob_threshold"),
+                "osr_distance": osr_meta.get("dist_to_pred_centroid"),
+                "osr_distance_threshold": osr_meta.get("class_distance_threshold"),
+                "osr_reject_reason": osr_meta.get("reject_reason", ""),
+
                 "final_label": final_result.final_label,
                 "stage": final_result.stage,
                 "confidence": final_result.confidence,
@@ -128,23 +143,61 @@ class DetectionPipeline:
         with summary_path.open("w", encoding="utf-8") as f:
             json.dump(summary, f, ensure_ascii=False, indent=2)
 
-    def _aggregate(self, event, rule_result, anomaly_result, osr_result) -> FinalDetectionResult:
+    def _decode_osr_reason(self, reason: str) -> dict:
+        if not reason:
+            return {}
+        try:
+            payload = json.loads(reason)
+            if isinstance(payload, dict):
+                return payload
+        except Exception:
+            pass
+        return {"raw_reason": reason}
+
+    def _compute_risk_score(self, rule_result, anomaly_result, osr_result, osr_meta: dict) -> float:
+        score = float(anomaly_result.score)
+        pred_label = osr_meta.get("pred_label", "benign")
+
+        if rule_result.hit:
+            return max(0.90, score)
+        if osr_result.is_unknown:
+            return max(0.85, score)
+        if anomaly_result.is_anomaly and pred_label in {"command_exec", "suspicious_path_probe"}:
+            return max(0.80, score)
+        if anomaly_result.is_anomaly:
+            return max(0.70, score)
+        return score
+
+    def _aggregate(self, event, rule_result, anomaly_result, osr_result, osr_meta: dict) -> FinalDetectionResult:
+        pred_label = osr_meta.get("pred_label", "benign")
+
         if rule_result.hit:
             return FinalDetectionResult(
                 record_id=event.record_id,
                 stage="rule",
                 final_label=rule_result.rule_name or "known_suspicious",
                 confidence=0.95,
-                risk_score=max(0.80, anomaly_result.score),
+                risk_score=self._compute_risk_score(rule_result, anomaly_result, osr_result, osr_meta),
             )
 
-        if anomaly_result.is_anomaly and osr_result.is_unknown:
+        # OSR 拒识优先于后续聚合
+        if osr_result.is_unknown:
             return FinalDetectionResult(
                 record_id=event.record_id,
                 stage="osr",
-                final_label="unknown_suspicious",
+                final_label="unknown",
                 confidence=osr_result.confidence,
-                risk_score=max(0.85, anomaly_result.score),
+                risk_score=self._compute_risk_score(rule_result, anomaly_result, osr_result, osr_meta),
+            )
+
+        # 只在“已被异常模块判为异常”时，才用 OSR 的已知攻击类细化标签
+        if anomaly_result.is_anomaly and pred_label in {"command_exec", "suspicious_path_probe"}:
+            return FinalDetectionResult(
+                record_id=event.record_id,
+                stage="osr_known",
+                final_label=pred_label,
+                confidence=osr_result.confidence,
+                risk_score=self._compute_risk_score(rule_result, anomaly_result, osr_result, osr_meta),
             )
 
         if anomaly_result.is_anomaly:
@@ -153,7 +206,7 @@ class DetectionPipeline:
                 stage="anomaly",
                 final_label="suspicious",
                 confidence=0.75,
-                risk_score=anomaly_result.score,
+                risk_score=self._compute_risk_score(rule_result, anomaly_result, osr_result, osr_meta),
             )
 
         return FinalDetectionResult(
@@ -161,5 +214,5 @@ class DetectionPipeline:
             stage="normal",
             final_label="benign",
             confidence=0.90,
-            risk_score=anomaly_result.score,
+            risk_score=self._compute_risk_score(rule_result, anomaly_result, osr_result, osr_meta),
         )

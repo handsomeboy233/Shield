@@ -119,30 +119,74 @@ def infer_texts(model, texts, vocab, id2label, max_len, centroids, thresholds, d
                 pred_id = int(pred_ids_np[i])
                 pred_label = id2label[pred_id]
                 max_prob = float(max_probs_np[i])
+
                 emb = np.array(feat_np[i], dtype=np.float32)
                 dist_to_pred_centroid = float(np.linalg.norm(emb - centroids[pred_id]))
-                dist_th = float(thresholds["class_distance_thresholds"][pred_id])
-                prob_th = float(thresholds["global_prob_threshold"])
+
+                base_dist_th = float(thresholds["class_distance_thresholds"][pred_id])
+                base_prob_th = float(thresholds["global_prob_threshold"])
+
+                # 默认阈值
+                prob_th = base_prob_th
+                dist_th = base_dist_th
+
+                # 对 command_exec 更严格，减少“外部 benign 被吸进 command_exec”
+                if pred_label == "command_exec":
+                    prob_th = max(base_prob_th, 0.75)
+                    dist_th = min(base_dist_th, base_dist_th * 0.85)
 
                 low_conf = max_prob < prob_th
                 far_from_centroid = dist_to_pred_centroid > dist_th
 
-                if low_conf and far_from_centroid:
-                    reject_reason = "low_confidence+far_from_centroid"
-                    final_label = "unknown"
-                    is_unknown = 1
-                elif low_conf:
-                    reject_reason = "low_confidence"
-                    final_label = "unknown"
-                    is_unknown = 1
-                elif far_from_centroid:
-                    reject_reason = "far_from_centroid"
-                    final_label = "unknown"
-                    is_unknown = 1
+                # 分类别拒识策略
+                if pred_label == "benign":
+                    # benign 更宽松：必须同时低置信且远离中心才拒识
+                    if low_conf and far_from_centroid:
+                        reject_reason = "low_confidence+far_from_centroid"
+                        final_label = "unknown"
+                        is_unknown = 1
+                    else:
+                        reject_reason = "accepted"
+                        final_label = pred_label
+                        is_unknown = 0
+
+                elif pred_label == "command_exec":
+                    # command_exec 更严格：任一条件满足就拒识
+                    if low_conf and far_from_centroid:
+                        reject_reason = "low_confidence+far_from_centroid"
+                        final_label = "unknown"
+                        is_unknown = 1
+                    elif low_conf:
+                        reject_reason = "low_confidence"
+                        final_label = "unknown"
+                        is_unknown = 1
+                    elif far_from_centroid:
+                        reject_reason = "far_from_centroid"
+                        final_label = "unknown"
+                        is_unknown = 1
+                    else:
+                        reject_reason = "accepted"
+                        final_label = pred_label
+                        is_unknown = 0
+
                 else:
-                    reject_reason = "accepted"
-                    final_label = pred_label
-                    is_unknown = 0
+                    # 其他攻击类保持原来的严格策略
+                    if low_conf and far_from_centroid:
+                        reject_reason = "low_confidence+far_from_centroid"
+                        final_label = "unknown"
+                        is_unknown = 1
+                    elif low_conf:
+                        reject_reason = "low_confidence"
+                        final_label = "unknown"
+                        is_unknown = 1
+                    elif far_from_centroid:
+                        reject_reason = "far_from_centroid"
+                        final_label = "unknown"
+                        is_unknown = 1
+                    else:
+                        reject_reason = "accepted"
+                        final_label = pred_label
+                        is_unknown = 0
 
                 rows.append({
                     "row_idx": idx,
@@ -157,6 +201,7 @@ def infer_texts(model, texts, vocab, id2label, max_len, centroids, thresholds, d
                     "reject_reason": reject_reason,
                 })
                 idx += 1
+
     return pd.DataFrame(rows)
 
 

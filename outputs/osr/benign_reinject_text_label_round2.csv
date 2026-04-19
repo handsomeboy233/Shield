@@ -1,0 +1,12 @@
+﻿text,label
+METHOD=GET PATH=/robots.txt QUERY= PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/ QUERY= PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/favicon.ico QUERY= PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/Datasets%20Description/PE_malware/OPCleaver.html QUERY= PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/GitHub-Mark.png QUERY= PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/Datasets%20Description/Network/ QUERY=C=N;O=A PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/Datasets%20Description/PE_malware/ QUERY=C=N;O=A PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/bootstrap/img/favicon.ico QUERY= PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/Datasets%20Description/ QUERY=C=D;O=D PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/honeypot/BSidesDFW%20-%202014.ipynb QUERY= PROTOCOL=HTTP/1.1,benign
+METHOD=GET PATH=/Datasets%20Description/Network/files.html QUERY= PROTOCOL=HTTP/1.1,benign
