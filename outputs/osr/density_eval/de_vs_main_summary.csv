@@ -1,0 +1,6 @@
+version,dataset,benign,unknown
+main_hardneg75,external_known_benign,16000,20000
+de_hardneg75,external_known_benign,2000,34000
+main_hardneg75,external_unknown_attack,12290,12775
+de_hardneg75,external_unknown_attack,2724,22341
+de_hardneg75,apache_real_log,0,644
