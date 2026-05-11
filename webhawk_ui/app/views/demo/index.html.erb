@@ -1,0 +1,91 @@
+<h2>开放集检测与语义增强演示面板</h2>
+
+<p>
+本页面用于演示：原始样本 → 规则筛选/异常分析/开放集判别 → Ollama 语义增强 → Webhawk 前端展示。
+</p>
+
+<div style="margin: 16px 0;">
+  <label>控制服务地址：</label>
+  <input id="server" value="http://127.0.0.1:19000" style="width: 360px;">
+  <label>提交条数：</label>
+  <input id="limit" value="30" style="width: 80px;">
+</div>
+
+<div style="margin: 16px 0;">
+  <button onclick="clearIncidents()">清空当前告警</button>
+  <button onclick="runScenario('external_unknown')">运行外部未知攻击集</button>
+  <button onclick="runScenario('real2021')">运行 2021 真实日志</button>
+  <button onclick="runScenario('real2022')">运行 2022 真实日志</button>
+  <button onclick="runScenario('unknown_reps')">运行未知代表样本</button>
+</div>
+
+<hr>
+
+<h3>自定义文件</h3>
+<div style="margin: 12px 0;">
+  <label>服务器文件路径：</label>
+  <input id="custom_input" value="./HTTP_LOGS/access.log.2021-10-22" style="width: 520px;">
+</div>
+
+<div style="margin: 12px 0;">
+  <label>文件类型：</label>
+  <select id="custom_format">
+    <option value="apache_log">Apache 日志</option>
+    <option value="csv">规范化 CSV</option>
+  </select>
+
+  <label>CSV 文本列：</label>
+  <input id="text_col" value="text" style="width: 100px;">
+  <button onclick="runCustom()">运行自定义文件</button>
+</div>
+
+<hr>
+
+<h3>运行输出</h3>
+<pre id="output" style="white-space: pre-wrap; border: 1px solid #ccc; padding: 12px; min-height: 300px; background: #fafafa;"></pre>
+
+<script>
+function baseUrl() {
+  return document.getElementById("server").value.replace(/\/$/, "");
+}
+
+function limitValue() {
+  return document.getElementById("limit").value || "30";
+}
+
+function writeOutput(text) {
+  document.getElementById("output").textContent = text;
+}
+
+async function callApi(path) {
+  writeOutput("正在执行，请等待……");
+  try {
+    const res = await fetch(baseUrl() + path);
+    const data = await res.json();
+    writeOutput(JSON.stringify(data, null, 2));
+  } catch (e) {
+    writeOutput("调用失败：\n" + e);
+  }
+}
+
+function clearIncidents() {
+  callApi("/clear");
+}
+
+function runScenario(name) {
+  callApi("/run?scenario=" + encodeURIComponent(name) + "&limit=" + encodeURIComponent(limitValue()));
+}
+
+function runCustom() {
+  const input = document.getElementById("custom_input").value;
+  const format = document.getElementById("custom_format").value;
+  const textCol = document.getElementById("text_col").value || "text";
+  callApi(
+    "/run?scenario=custom"
+    + "&limit=" + encodeURIComponent(limitValue())
+    + "&input=" + encodeURIComponent(input)
+    + "&format=" + encodeURIComponent(format)
+    + "&text_col=" + encodeURIComponent(textCol)
+  );
+}
+</script>

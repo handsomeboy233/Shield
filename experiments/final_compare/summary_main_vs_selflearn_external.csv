@@ -1,0 +1,5 @@
+﻿setting,dataset,benign_accept,unknown_reject,attack_like_accept,total
+主版,external_known_benign,16000,20000,0,36000
+主版,external_unknown_attack,12290,12775,0,25065
+自学习第一轮,external_known_benign,36000,0,0,36000
+自学习第一轮,external_unknown_attack,24753,312,0,25065
